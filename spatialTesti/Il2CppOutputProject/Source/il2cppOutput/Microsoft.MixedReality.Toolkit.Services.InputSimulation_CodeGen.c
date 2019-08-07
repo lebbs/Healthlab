@@ -1,0 +1,512 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile Microsoft.MixedReality.Toolkit.Input.IInputSimulationService::get_InputSimulationProfile()
+// 0x00000002 System.Void Microsoft.MixedReality.Toolkit.Input.ManualCameraControl::.ctor(Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile)
+extern void ManualCameraControl__ctor_m7FF9E6E8F53C26F979266DB8306FD0EF854AC853 ();
+// 0x00000003 System.Single Microsoft.MixedReality.Toolkit.Input.ManualCameraControl::InputCurve(System.Single)
+extern void ManualCameraControl_InputCurve_m92AC9467C6B77CFE3D101CB34D3C845A446057D5 ();
+// 0x00000004 System.Void Microsoft.MixedReality.Toolkit.Input.ManualCameraControl::UpdateTransform(UnityEngine.Transform)
+extern void ManualCameraControl_UpdateTransform_m563EAA7EBC627831958271F38D1EF4203D06B4CD ();
+// 0x00000005 System.Single Microsoft.MixedReality.Toolkit.Input.ManualCameraControl::GetKeyDir(System.String,System.String)
+extern void ManualCameraControl_GetKeyDir_mA17DE06ECA14E8B86980490E7D9FC7BFCFF3385E ();
+// 0x00000006 UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.Input.ManualCameraControl::GetCameraControlTranslation(UnityEngine.Transform)
+extern void ManualCameraControl_GetCameraControlTranslation_m3DC630831934E8E02C6FBB972D622E6725BC80C8 ();
+// 0x00000007 UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.Input.ManualCameraControl::GetCameraControlRotation()
+extern void ManualCameraControl_GetCameraControlRotation_m3D19B1E42202CAD6BF39AAB95EC6462FCA39DF1A ();
+// 0x00000008 System.Void Microsoft.MixedReality.Toolkit.Input.ManualCameraControl::OnStartMouseLook()
+extern void ManualCameraControl_OnStartMouseLook_m5BF3719ACEA0892BDEDA5BB9CC194CB2072E69BE ();
+// 0x00000009 System.Void Microsoft.MixedReality.Toolkit.Input.ManualCameraControl::OnEndMouseLook()
+extern void ManualCameraControl_OnEndMouseLook_m4726C49BD31E90A2E4696109C8BC0E04998441D9 ();
+// 0x0000000A System.Void Microsoft.MixedReality.Toolkit.Input.ManualCameraControl::ManualCameraControl_MouseLookTick(UnityEngine.Vector3U26)
+extern void ManualCameraControl_ManualCameraControl_MouseLookTick_m04C4081BEC9E40DDA28B18C0A5E33324059B1431 ();
+// 0x0000000B System.Boolean Microsoft.MixedReality.Toolkit.Input.ManualCameraControl::get_ShouldMouseLook()
+extern void ManualCameraControl_get_ShouldMouseLook_mE34D3DF68CB831FE6BF65DE1980702F65B8242FD ();
+// 0x0000000C System.Void Microsoft.MixedReality.Toolkit.Input.ManualCameraControl::SetWantsMouseJumping(System.Boolean)
+extern void ManualCameraControl_SetWantsMouseJumping_m763B353004DF2F48A148C196711C3F24F407A7F4 ();
+// 0x0000000D System.Boolean Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_IsCameraControlEnabled()
+extern void MixedRealityInputSimulationProfile_get_IsCameraControlEnabled_m4A126F4D0B5BACDD83B6D26532FE1A6ED1FBBC69 ();
+// 0x0000000E System.Single Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_ExtraMouseSensitivityScale()
+extern void MixedRealityInputSimulationProfile_get_ExtraMouseSensitivityScale_mAC27CAA55A3D2E2CFD163C201458A55DF9986E46 ();
+// 0x0000000F System.Single Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_DefaultMouseSensitivity()
+extern void MixedRealityInputSimulationProfile_get_DefaultMouseSensitivity_m6318EE5940068250E4995CA50A7B48AA2D7B38D0 ();
+// 0x00000010 Microsoft.MixedReality.Toolkit.Input.InputSimulationMouseButton Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_MouseLookButton()
+extern void MixedRealityInputSimulationProfile_get_MouseLookButton_mCD04634D2844315BB176501FCD54922973B2D259 ();
+// 0x00000011 System.Boolean Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_IsControllerLookInverted()
+extern void MixedRealityInputSimulationProfile_get_IsControllerLookInverted_m1F1DDDC2A8E1523EAFCFA298669C7DB4F87AAC4D ();
+// 0x00000012 Microsoft.MixedReality.Toolkit.Input.InputSimulationControlMode Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_CurrentControlMode()
+extern void MixedRealityInputSimulationProfile_get_CurrentControlMode_m365A1934F1906A26E0865D061C759F74CD7F8BBB ();
+// 0x00000013 UnityEngine.KeyCode Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_FastControlKey()
+extern void MixedRealityInputSimulationProfile_get_FastControlKey_m7EBE38DE672182505B89E7996FEF7BCE4A1B7803 ();
+// 0x00000014 System.Single Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_ControlSlowSpeed()
+extern void MixedRealityInputSimulationProfile_get_ControlSlowSpeed_m876415D8FBE9D75C3C183514450741EAF5F07A7B ();
+// 0x00000015 System.Single Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_ControlFastSpeed()
+extern void MixedRealityInputSimulationProfile_get_ControlFastSpeed_mFC4C7367E2EED39F2170D25353F140C624730606 ();
+// 0x00000016 System.String Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_MoveHorizontal()
+extern void MixedRealityInputSimulationProfile_get_MoveHorizontal_m017554BDDC001B7EA768A8232E20D7458D583027 ();
+// 0x00000017 System.String Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_MoveVertical()
+extern void MixedRealityInputSimulationProfile_get_MoveVertical_mD3951F2FDB8CEB301D4060806EC0CA6759896766 ();
+// 0x00000018 System.String Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_MouseX()
+extern void MixedRealityInputSimulationProfile_get_MouseX_m948C6DC5FA747EF496CF4D034559866E42208385 ();
+// 0x00000019 System.String Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_MouseY()
+extern void MixedRealityInputSimulationProfile_get_MouseY_m09ED3578096DF704596D515302D86E585CFB5C02 ();
+// 0x0000001A System.String Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_LookHorizontal()
+extern void MixedRealityInputSimulationProfile_get_LookHorizontal_m42B3D6D256B7AAC814327C831B5D6AA1DF97E255 ();
+// 0x0000001B System.String Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_LookVertical()
+extern void MixedRealityInputSimulationProfile_get_LookVertical_m96BDB7F20C2470F9A83B319056DFAF7506DC42FE ();
+// 0x0000001C System.Boolean Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_SimulateEyePosition()
+extern void MixedRealityInputSimulationProfile_get_SimulateEyePosition_m65F1A898A3FF7197331712C132AFF3C07F20848F ();
+// 0x0000001D Microsoft.MixedReality.Toolkit.Input.HandSimulationMode Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_HandSimulationMode()
+extern void MixedRealityInputSimulationProfile_get_HandSimulationMode_m7AF9A263BF955CD221CAC873EE1B703CA8C400C9 ();
+// 0x0000001E UnityEngine.KeyCode Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_ToggleLeftHandKey()
+extern void MixedRealityInputSimulationProfile_get_ToggleLeftHandKey_m0938B5767F57F921502537FDEEAD30DFCA852EA0 ();
+// 0x0000001F UnityEngine.KeyCode Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_ToggleRightHandKey()
+extern void MixedRealityInputSimulationProfile_get_ToggleRightHandKey_m6800CE9022A5B139B2435C14B93598A383FA17E2 ();
+// 0x00000020 System.Single Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_HandHideTimeout()
+extern void MixedRealityInputSimulationProfile_get_HandHideTimeout_m68A2277521E6F5AB774F6C2B8C33308995704297 ();
+// 0x00000021 UnityEngine.KeyCode Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_LeftHandManipulationKey()
+extern void MixedRealityInputSimulationProfile_get_LeftHandManipulationKey_m5CF930DD138B33A6C88308A93ABF1FD23C8E95EB ();
+// 0x00000022 UnityEngine.KeyCode Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_RightHandManipulationKey()
+extern void MixedRealityInputSimulationProfile_get_RightHandManipulationKey_mA429EA7F531EC9F910DB0EFF6E7A36E27AB58424 ();
+// 0x00000023 Microsoft.MixedReality.Toolkit.Utilities.ArticulatedHandPose_GestureId Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_DefaultHandGesture()
+extern void MixedRealityInputSimulationProfile_get_DefaultHandGesture_mD3A6A7B18EE78308C4EB5A9E34D9E724D214923E ();
+// 0x00000024 Microsoft.MixedReality.Toolkit.Utilities.ArticulatedHandPose_GestureId Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_LeftMouseHandGesture()
+extern void MixedRealityInputSimulationProfile_get_LeftMouseHandGesture_mEBCDA2D66B78F65369F66DE1153FEC879F096A82 ();
+// 0x00000025 Microsoft.MixedReality.Toolkit.Utilities.ArticulatedHandPose_GestureId Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_MiddleMouseHandGesture()
+extern void MixedRealityInputSimulationProfile_get_MiddleMouseHandGesture_mD1F5A9F51BCF91EC6D5F0AB990FD0183F0F0EE0C ();
+// 0x00000026 Microsoft.MixedReality.Toolkit.Utilities.ArticulatedHandPose_GestureId Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_RightMouseHandGesture()
+extern void MixedRealityInputSimulationProfile_get_RightMouseHandGesture_m73169C1AC874B34BE0ED76158486C07403F82432 ();
+// 0x00000027 System.Single Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_HandGestureAnimationSpeed()
+extern void MixedRealityInputSimulationProfile_get_HandGestureAnimationSpeed_m159042CFADEA1948914A6AD9D52193E9179B0AF5 ();
+// 0x00000028 System.Single Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_HoldStartDuration()
+extern void MixedRealityInputSimulationProfile_get_HoldStartDuration_mBC1A3E5C22D4854356392379561E246374610007 ();
+// 0x00000029 System.Single Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_ManipulationStartThreshold()
+extern void MixedRealityInputSimulationProfile_get_ManipulationStartThreshold_mA5D7126CD46AC05DEA72A01DE74578EFCA61B9A1 ();
+// 0x0000002A System.Single Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_DefaultHandDistance()
+extern void MixedRealityInputSimulationProfile_get_DefaultHandDistance_m3D175B58CA9EBA30092EA2A68D01EA4B94489C4A ();
+// 0x0000002B System.Single Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_HandDepthMultiplier()
+extern void MixedRealityInputSimulationProfile_get_HandDepthMultiplier_m6604B44E146EA94CBD6109337F0190E999766DA8 ();
+// 0x0000002C System.Single Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_HandJitterAmount()
+extern void MixedRealityInputSimulationProfile_get_HandJitterAmount_mDDF19A0974AFB60C2E91D129017A3D0805143F60 ();
+// 0x0000002D UnityEngine.KeyCode Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_YawHandCWKey()
+extern void MixedRealityInputSimulationProfile_get_YawHandCWKey_m8D25D317DD2ADDDA33255C9F7E993E854CE32578 ();
+// 0x0000002E UnityEngine.KeyCode Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_YawHandCCWKey()
+extern void MixedRealityInputSimulationProfile_get_YawHandCCWKey_mEAB61DF36DB74C3D75B4A74327E3DBAFC005C1F7 ();
+// 0x0000002F UnityEngine.KeyCode Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_PitchHandCWKey()
+extern void MixedRealityInputSimulationProfile_get_PitchHandCWKey_m345C749AC96907F9EC2C9C2A67A9762CE9DA1FF0 ();
+// 0x00000030 UnityEngine.KeyCode Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_PitchHandCCWKey()
+extern void MixedRealityInputSimulationProfile_get_PitchHandCCWKey_mF31570A5CFFE2C565A701FF6318F8397DBAB689C ();
+// 0x00000031 UnityEngine.KeyCode Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_RollHandCWKey()
+extern void MixedRealityInputSimulationProfile_get_RollHandCWKey_mCD75EA7E80AB5D53517352CABF579A50663C7BF9 ();
+// 0x00000032 UnityEngine.KeyCode Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_RollHandCCWKey()
+extern void MixedRealityInputSimulationProfile_get_RollHandCCWKey_m1BE607B59E89E69C3ADBE1527F1C6309D9599D63 ();
+// 0x00000033 System.Single Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::get_HandRotationSpeed()
+extern void MixedRealityInputSimulationProfile_get_HandRotationSpeed_m536913F900351CB840F04EEF9B71F97848A9EAC6 ();
+// 0x00000034 System.Void Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile::.ctor()
+extern void MixedRealityInputSimulationProfile__ctor_m9769DFD9BDD54BA2B6A190798622CEDC78EA2EEB ();
+// 0x00000035 Microsoft.MixedReality.Toolkit.Input.HandSimulationMode Microsoft.MixedReality.Toolkit.Input.SimulatedArticulatedHand::get_SimulationMode()
+extern void SimulatedArticulatedHand_get_SimulationMode_mF859372BC1E7EBA1FB344F3693308E1720483F94 ();
+// 0x00000036 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedArticulatedHand::.ctor(Microsoft.MixedReality.Toolkit.TrackingState,Microsoft.MixedReality.Toolkit.Utilities.Handedness,Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSource,Microsoft.MixedReality.Toolkit.Input.MixedRealityInteractionMapping[])
+extern void SimulatedArticulatedHand__ctor_m5518A9A451EE08DB313A88F7EDF1FCF72BFD5333 ();
+// 0x00000037 Microsoft.MixedReality.Toolkit.Input.MixedRealityInteractionMapping[] Microsoft.MixedReality.Toolkit.Input.SimulatedArticulatedHand::get_DefaultInteractions()
+extern void SimulatedArticulatedHand_get_DefaultInteractions_mDE48166990BF99C0D3809DD299CDCC0FC06777B4 ();
+// 0x00000038 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedArticulatedHand::SetupDefaultInteractions(Microsoft.MixedReality.Toolkit.Utilities.Handedness)
+extern void SimulatedArticulatedHand_SetupDefaultInteractions_m9F9F05A361C810DB38582F466CE28CAD1A4049F5 ();
+// 0x00000039 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedArticulatedHand::UpdateInteractions(Microsoft.MixedReality.Toolkit.Input.SimulatedHandData)
+extern void SimulatedArticulatedHand_UpdateInteractions_m982D348EDBBB3D148D95B9F7E4BF863AFB851DA9 ();
+// 0x0000003A Microsoft.MixedReality.Toolkit.Input.HandSimulationMode Microsoft.MixedReality.Toolkit.Input.SimulatedGestureHand::get_SimulationMode()
+extern void SimulatedGestureHand_get_SimulationMode_m3E7C9A35BFAA289E74524BCA142A3771A08B8ABB ();
+// 0x0000003B UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.Input.SimulatedGestureHand::get_navigationDelta()
+extern void SimulatedGestureHand_get_navigationDelta_m0FD22233CFFA608F80B80E740D01DA6F8E22582A ();
+// 0x0000003C System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedGestureHand::.ctor(Microsoft.MixedReality.Toolkit.TrackingState,Microsoft.MixedReality.Toolkit.Utilities.Handedness,Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSource,Microsoft.MixedReality.Toolkit.Input.MixedRealityInteractionMapping[])
+extern void SimulatedGestureHand__ctor_m93581EB80551349B8F9FD7C292CBDBFA5243F97A ();
+// 0x0000003D System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedGestureHand::EnsureProfileSettings()
+extern void SimulatedGestureHand_EnsureProfileSettings_m5FC39BD038B64363C40173D9E60B1BC1606C7A3A ();
+// 0x0000003E Microsoft.MixedReality.Toolkit.Input.MixedRealityInteractionMapping[] Microsoft.MixedReality.Toolkit.Input.SimulatedGestureHand::get_DefaultInteractions()
+extern void SimulatedGestureHand_get_DefaultInteractions_m304D32B99A064523F1EC9DFD6873DEB55A56A8AF ();
+// 0x0000003F System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedGestureHand::SetupDefaultInteractions(Microsoft.MixedReality.Toolkit.Utilities.Handedness)
+extern void SimulatedGestureHand_SetupDefaultInteractions_m43EB37ECD45A5DF02A51C70044EE4A423D45F0EA ();
+// 0x00000040 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedGestureHand::UpdateInteractions(Microsoft.MixedReality.Toolkit.Input.SimulatedHandData)
+extern void SimulatedGestureHand_UpdateInteractions_m96F24F8AEC7B7EC9C96EAF20378C4BBF49B26DF8 ();
+// 0x00000041 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedGestureHand::StartHoldGesture()
+extern void SimulatedGestureHand_StartHoldGesture_m87B392088D04CA8BA496059372BEA4EA9690193B ();
+// 0x00000042 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedGestureHand::CompleteHoldGesture()
+extern void SimulatedGestureHand_CompleteHoldGesture_m7C39B209E91C625F0CEF0CFE1AE1586C91210B6E ();
+// 0x00000043 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedGestureHand::CancelHoldGesture()
+extern void SimulatedGestureHand_CancelHoldGesture_m1FFD8370942E097B9614D23DE2665B4237A06D8F ();
+// 0x00000044 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedGestureHand::StartManipulationNavigationGesture()
+extern void SimulatedGestureHand_StartManipulationNavigationGesture_m5BB94941825E6A294C20003F92DB36320395264F ();
+// 0x00000045 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedGestureHand::UpdateManipulationNavigationGesture()
+extern void SimulatedGestureHand_UpdateManipulationNavigationGesture_m6B3CC8FA39C7C6B60A193A52A7F44F96671BF996 ();
+// 0x00000046 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedGestureHand::CompleteManipulationNavigationGesture()
+extern void SimulatedGestureHand_CompleteManipulationNavigationGesture_m15F1B2DE1DA6215DDCB16F67F0C74609EA425F05 ();
+// 0x00000047 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedGestureHand::CancelManipulationNavigationGesture()
+extern void SimulatedGestureHand_CancelManipulationNavigationGesture_m054905520D7EC16A96DD045147AAF8672D7C94EF ();
+// 0x00000048 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedGestureHand::UpdateNavigationRails()
+extern void SimulatedGestureHand_UpdateNavigationRails_mDA8C27C354D28CD6BC7E7EB7E4A84A560D1B08A6 ();
+// 0x00000049 System.Int64 Microsoft.MixedReality.Toolkit.Input.SimulatedHandData::get_Timestamp()
+extern void SimulatedHandData_get_Timestamp_m6735904FDF143E193E90311EA6D49C450BB6C194 ();
+// 0x0000004A System.Boolean Microsoft.MixedReality.Toolkit.Input.SimulatedHandData::get_IsTracked()
+extern void SimulatedHandData_get_IsTracked_m44B1246872F6BE0B0A308EB2CC5259B6DFCF7FBF ();
+// 0x0000004B Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose[] Microsoft.MixedReality.Toolkit.Input.SimulatedHandData::get_Joints()
+extern void SimulatedHandData_get_Joints_m0137F96239589766E8132147EBBC5D1C24516B7C ();
+// 0x0000004C System.Boolean Microsoft.MixedReality.Toolkit.Input.SimulatedHandData::get_IsPinching()
+extern void SimulatedHandData_get_IsPinching_mB7C40888399E88C93E755FE89D50234CF5F5C981 ();
+// 0x0000004D Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSystem Microsoft.MixedReality.Toolkit.Input.SimulatedHandData::get_InputSystem()
+extern void SimulatedHandData_get_InputSystem_m74B585679CB887A0A5722F761D09C8AC21A5E799 ();
+// 0x0000004E System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandData::Copy(Microsoft.MixedReality.Toolkit.Input.SimulatedHandData)
+extern void SimulatedHandData_Copy_m41ABA1DF6D6E58F82E3DF8D876F210F2D75BCC52 ();
+// 0x0000004F System.Boolean Microsoft.MixedReality.Toolkit.Input.SimulatedHandData::Update(System.Boolean,System.Boolean,Microsoft.MixedReality.Toolkit.Input.SimulatedHandData_HandJointDataGenerator)
+extern void SimulatedHandData_Update_m8F8FA53BE78C0B1B1B5AEDD04E81EE37283C2048 ();
+// 0x00000050 System.Boolean Microsoft.MixedReality.Toolkit.Input.SimulatedHandData::UpdateWithTimestamp(System.Int64,System.Boolean,System.Boolean,Microsoft.MixedReality.Toolkit.Input.SimulatedHandData_HandJointDataGenerator)
+extern void SimulatedHandData_UpdateWithTimestamp_mFF3E503F08373285FE5EB42270638D275764FB3A ();
+// 0x00000051 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandData::.ctor()
+extern void SimulatedHandData__ctor_mC0F48E57A15AA83EB147D0682EAFD4B9A13A74E3 ();
+// 0x00000052 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandData::.cctor()
+extern void SimulatedHandData__cctor_m9FF93A339C2E4BD70FD2048183E316BDEFD82849 ();
+// 0x00000053 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandData_HandJointDataGenerator::.ctor(System.Object,System.IntPtr)
+extern void HandJointDataGenerator__ctor_mB815FE73EC4C1E2EA223BA3380BC7817ACED0EB0 ();
+// 0x00000054 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandData_HandJointDataGenerator::Invoke(Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose[])
+extern void HandJointDataGenerator_Invoke_m453D8F003A5B2375922D4E902074628FA4AAB4F2 ();
+// 0x00000055 System.IAsyncResult Microsoft.MixedReality.Toolkit.Input.SimulatedHandData_HandJointDataGenerator::BeginInvoke(Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose[],System.AsyncCallback,System.Object)
+extern void HandJointDataGenerator_BeginInvoke_mA4657EBE145331D04C470650EAF342F7C67A646F ();
+// 0x00000056 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandData_HandJointDataGenerator::EndInvoke(System.IAsyncResult)
+extern void HandJointDataGenerator_EndInvoke_m47C19E7BD246FFCEDFC1D4E6903DB18FAF1002F5 ();
+// 0x00000057 Microsoft.MixedReality.Toolkit.Input.HandSimulationMode Microsoft.MixedReality.Toolkit.Input.SimulatedHand::get_SimulationMode()
+// 0x00000058 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHand::.ctor(Microsoft.MixedReality.Toolkit.TrackingState,Microsoft.MixedReality.Toolkit.Utilities.Handedness,Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSource,Microsoft.MixedReality.Toolkit.Input.MixedRealityInteractionMapping[])
+extern void SimulatedHand__ctor_m93808D1348F3FB6FA63A335E89F47FB5345EE1C4 ();
+// 0x00000059 System.Boolean Microsoft.MixedReality.Toolkit.Input.SimulatedHand::TryGetJoint(Microsoft.MixedReality.Toolkit.Utilities.TrackedHandJoint,Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPoseU26)
+extern void SimulatedHand_TryGetJoint_m14B9D4449933B89DB099541E2901B4017D613B64 ();
+// 0x0000005A System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHand::UpdateState(Microsoft.MixedReality.Toolkit.Input.SimulatedHandData)
+extern void SimulatedHand_UpdateState_m76167DB74444C36B375258174DBB71C74806C7E7 ();
+// 0x0000005B System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHand::UpdateInteractions(Microsoft.MixedReality.Toolkit.Input.SimulatedHandData)
+// 0x0000005C System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHand::.cctor()
+extern void SimulatedHand__cctor_mD1BA38A6EB0C974530FDAEA1E4A70CE9C16F7B5A ();
+// 0x0000005D Microsoft.MixedReality.Toolkit.Utilities.Handedness Microsoft.MixedReality.Toolkit.Input.SimulatedHandState::get_Handedness()
+extern void SimulatedHandState_get_Handedness_m86AEEFE654C1519FE95F9985374C9F010EE6FF36 ();
+// 0x0000005E System.Boolean Microsoft.MixedReality.Toolkit.Input.SimulatedHandState::get_IsPinching()
+extern void SimulatedHandState_get_IsPinching_m3342EF2FCE4F7A48DA2EFB9F7EBBC8AAFCC3B7DE ();
+// 0x0000005F System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandState::set_IsPinching(System.Boolean)
+extern void SimulatedHandState_set_IsPinching_m65D25C94FC10461909F03181E2AE1A97E619DD46 ();
+// 0x00000060 Microsoft.MixedReality.Toolkit.Utilities.ArticulatedHandPose_GestureId Microsoft.MixedReality.Toolkit.Input.SimulatedHandState::get_Gesture()
+extern void SimulatedHandState_get_Gesture_mD92DD18C9290E8F89105E0539065E44CA74AFFFF ();
+// 0x00000061 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandState::set_Gesture(Microsoft.MixedReality.Toolkit.Utilities.ArticulatedHandPose_GestureId)
+extern void SimulatedHandState_set_Gesture_mC8DFF4D3309753AE88FB273F3C55CFBE8C7C1882 ();
+// 0x00000062 System.Single Microsoft.MixedReality.Toolkit.Input.SimulatedHandState::get_GestureBlending()
+extern void SimulatedHandState_get_GestureBlending_m61B1AE6EA0F82008B919350872861BB83D1AE6DE ();
+// 0x00000063 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandState::set_GestureBlending(System.Single)
+extern void SimulatedHandState_set_GestureBlending_mA9E930861977C6A7651CC2815A9F4C7335E2DB11 ();
+// 0x00000064 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandState::.ctor(Microsoft.MixedReality.Toolkit.Utilities.Handedness)
+extern void SimulatedHandState__ctor_m349E18510C30BD47FC7E10C4991BE2C34D676433 ();
+// 0x00000065 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandState::Reset()
+extern void SimulatedHandState_Reset_m591616FB0D9CCE8F96F2DD72CAFBC745E6DCAB36 ();
+// 0x00000066 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandState::SetViewportPosition(UnityEngine.Vector3)
+extern void SimulatedHandState_SetViewportPosition_mEAE22445325D52614D0E020CF8EFE8E542214CCB ();
+// 0x00000067 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandState::SimulateInput(UnityEngine.Vector3,System.Single,UnityEngine.Vector3)
+extern void SimulatedHandState_SimulateInput_m4FB2C3E0E8BEC699B55A62FA37BD12F8E018FB6C ();
+// 0x00000068 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandState::ResetGesture()
+extern void SimulatedHandState_ResetGesture_m768808568035F9E15EBC17DF83D75F62A6069EBC ();
+// 0x00000069 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandState::FillCurrentFrame(Microsoft.MixedReality.Toolkit.Utilities.MixedRealityPose[])
+extern void SimulatedHandState_FillCurrentFrame_mAC7F8FC883C1A03381FAC69F7483883413845C5C ();
+// 0x0000006A System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandDataProvider::.ctor(Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile)
+extern void SimulatedHandDataProvider__ctor_m5BDEF9D66F97A11A0B6CA2ADB5322B3DC9845BD9 ();
+// 0x0000006B System.Boolean Microsoft.MixedReality.Toolkit.Input.SimulatedHandDataProvider::UpdateHandData(Microsoft.MixedReality.Toolkit.Input.SimulatedHandData,Microsoft.MixedReality.Toolkit.Input.SimulatedHandData)
+extern void SimulatedHandDataProvider_UpdateHandData_mFF99D6415C49372571D42CE5F17ED9C6D90C539D ();
+// 0x0000006C System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandDataProvider::SimulateUserInput()
+extern void SimulatedHandDataProvider_SimulateUserInput_m003E4A8FDD0889C01947CB4851803D1BF049404B ();
+// 0x0000006D System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandDataProvider::SimulateHandInput(System.Int64U26,Microsoft.MixedReality.Toolkit.Input.SimulatedHandState,System.Boolean,System.Boolean,UnityEngine.Vector3,UnityEngine.Vector3)
+extern void SimulatedHandDataProvider_SimulateHandInput_mCC63E2A933A7A87E744034D157EFE773F852B134 ();
+// 0x0000006E Microsoft.MixedReality.Toolkit.Utilities.ArticulatedHandPose_GestureId Microsoft.MixedReality.Toolkit.Input.SimulatedHandDataProvider::SelectGesture()
+extern void SimulatedHandDataProvider_SelectGesture_m3EED0D8A0B38C138C8C872805E35ACC67F70F37F ();
+// 0x0000006F Microsoft.MixedReality.Toolkit.Utilities.ArticulatedHandPose_GestureId Microsoft.MixedReality.Toolkit.Input.SimulatedHandDataProvider::ToggleGesture(Microsoft.MixedReality.Toolkit.Utilities.ArticulatedHandPose_GestureId)
+extern void SimulatedHandDataProvider_ToggleGesture_m9F8B8AE3A881E53C67ABC7B4B8187E45AEFDB0BD ();
+// 0x00000070 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandDataProvider::.cctor()
+extern void SimulatedHandDataProvider__cctor_m9A1A5FCC0ED72FF2FB58E0AF98B36C39C7D98887 ();
+// 0x00000071 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandUtils::CalculateJointRotations(Microsoft.MixedReality.Toolkit.Utilities.Handedness,UnityEngine.Vector3[],UnityEngine.Quaternion[])
+extern void SimulatedHandUtils_CalculateJointRotations_mA0A1808305AB3D8B589A08E42F9155739D9221AE ();
+// 0x00000072 UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.Input.SimulatedHandUtils::GetPalmForwardVector(UnityEngine.Vector3[])
+extern void SimulatedHandUtils_GetPalmForwardVector_m9E069A581F41648ADB1D947EDBB726BD867602F4 ();
+// 0x00000073 UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.Input.SimulatedHandUtils::GetPalmUpVector(Microsoft.MixedReality.Toolkit.Utilities.Handedness,UnityEngine.Vector3[])
+extern void SimulatedHandUtils_GetPalmUpVector_mB1852A38F5919EC805FE801DB47DC6DA1E64CCD0 ();
+// 0x00000074 UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.Input.SimulatedHandUtils::GetPalmRightVector(Microsoft.MixedReality.Toolkit.Utilities.Handedness,UnityEngine.Vector3[])
+extern void SimulatedHandUtils_GetPalmRightVector_m9C646FB51F2C94823DC3EEE26383B22A88EA4301 ();
+// 0x00000075 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandUtils::.ctor()
+extern void SimulatedHandUtils__ctor_m8FE7B6098201AE8BB6E8337DCDAAA7663D64F06F ();
+// 0x00000076 System.Void Microsoft.MixedReality.Toolkit.Input.SimulatedHandUtils::.cctor()
+extern void SimulatedHandUtils__cctor_mE9EC43A15625808EECB51ECE0AA4C867F45C6733 ();
+static Il2CppMethodPointer s_methodPointers[118] = 
+{
+	NULL,
+	ManualCameraControl__ctor_m7FF9E6E8F53C26F979266DB8306FD0EF854AC853,
+	ManualCameraControl_InputCurve_m92AC9467C6B77CFE3D101CB34D3C845A446057D5,
+	ManualCameraControl_UpdateTransform_m563EAA7EBC627831958271F38D1EF4203D06B4CD,
+	ManualCameraControl_GetKeyDir_mA17DE06ECA14E8B86980490E7D9FC7BFCFF3385E,
+	ManualCameraControl_GetCameraControlTranslation_m3DC630831934E8E02C6FBB972D622E6725BC80C8,
+	ManualCameraControl_GetCameraControlRotation_m3D19B1E42202CAD6BF39AAB95EC6462FCA39DF1A,
+	ManualCameraControl_OnStartMouseLook_m5BF3719ACEA0892BDEDA5BB9CC194CB2072E69BE,
+	ManualCameraControl_OnEndMouseLook_m4726C49BD31E90A2E4696109C8BC0E04998441D9,
+	ManualCameraControl_ManualCameraControl_MouseLookTick_m04C4081BEC9E40DDA28B18C0A5E33324059B1431,
+	ManualCameraControl_get_ShouldMouseLook_mE34D3DF68CB831FE6BF65DE1980702F65B8242FD,
+	ManualCameraControl_SetWantsMouseJumping_m763B353004DF2F48A148C196711C3F24F407A7F4,
+	MixedRealityInputSimulationProfile_get_IsCameraControlEnabled_m4A126F4D0B5BACDD83B6D26532FE1A6ED1FBBC69,
+	MixedRealityInputSimulationProfile_get_ExtraMouseSensitivityScale_mAC27CAA55A3D2E2CFD163C201458A55DF9986E46,
+	MixedRealityInputSimulationProfile_get_DefaultMouseSensitivity_m6318EE5940068250E4995CA50A7B48AA2D7B38D0,
+	MixedRealityInputSimulationProfile_get_MouseLookButton_mCD04634D2844315BB176501FCD54922973B2D259,
+	MixedRealityInputSimulationProfile_get_IsControllerLookInverted_m1F1DDDC2A8E1523EAFCFA298669C7DB4F87AAC4D,
+	MixedRealityInputSimulationProfile_get_CurrentControlMode_m365A1934F1906A26E0865D061C759F74CD7F8BBB,
+	MixedRealityInputSimulationProfile_get_FastControlKey_m7EBE38DE672182505B89E7996FEF7BCE4A1B7803,
+	MixedRealityInputSimulationProfile_get_ControlSlowSpeed_m876415D8FBE9D75C3C183514450741EAF5F07A7B,
+	MixedRealityInputSimulationProfile_get_ControlFastSpeed_mFC4C7367E2EED39F2170D25353F140C624730606,
+	MixedRealityInputSimulationProfile_get_MoveHorizontal_m017554BDDC001B7EA768A8232E20D7458D583027,
+	MixedRealityInputSimulationProfile_get_MoveVertical_mD3951F2FDB8CEB301D4060806EC0CA6759896766,
+	MixedRealityInputSimulationProfile_get_MouseX_m948C6DC5FA747EF496CF4D034559866E42208385,
+	MixedRealityInputSimulationProfile_get_MouseY_m09ED3578096DF704596D515302D86E585CFB5C02,
+	MixedRealityInputSimulationProfile_get_LookHorizontal_m42B3D6D256B7AAC814327C831B5D6AA1DF97E255,
+	MixedRealityInputSimulationProfile_get_LookVertical_m96BDB7F20C2470F9A83B319056DFAF7506DC42FE,
+	MixedRealityInputSimulationProfile_get_SimulateEyePosition_m65F1A898A3FF7197331712C132AFF3C07F20848F,
+	MixedRealityInputSimulationProfile_get_HandSimulationMode_m7AF9A263BF955CD221CAC873EE1B703CA8C400C9,
+	MixedRealityInputSimulationProfile_get_ToggleLeftHandKey_m0938B5767F57F921502537FDEEAD30DFCA852EA0,
+	MixedRealityInputSimulationProfile_get_ToggleRightHandKey_m6800CE9022A5B139B2435C14B93598A383FA17E2,
+	MixedRealityInputSimulationProfile_get_HandHideTimeout_m68A2277521E6F5AB774F6C2B8C33308995704297,
+	MixedRealityInputSimulationProfile_get_LeftHandManipulationKey_m5CF930DD138B33A6C88308A93ABF1FD23C8E95EB,
+	MixedRealityInputSimulationProfile_get_RightHandManipulationKey_mA429EA7F531EC9F910DB0EFF6E7A36E27AB58424,
+	MixedRealityInputSimulationProfile_get_DefaultHandGesture_mD3A6A7B18EE78308C4EB5A9E34D9E724D214923E,
+	MixedRealityInputSimulationProfile_get_LeftMouseHandGesture_mEBCDA2D66B78F65369F66DE1153FEC879F096A82,
+	MixedRealityInputSimulationProfile_get_MiddleMouseHandGesture_mD1F5A9F51BCF91EC6D5F0AB990FD0183F0F0EE0C,
+	MixedRealityInputSimulationProfile_get_RightMouseHandGesture_m73169C1AC874B34BE0ED76158486C07403F82432,
+	MixedRealityInputSimulationProfile_get_HandGestureAnimationSpeed_m159042CFADEA1948914A6AD9D52193E9179B0AF5,
+	MixedRealityInputSimulationProfile_get_HoldStartDuration_mBC1A3E5C22D4854356392379561E246374610007,
+	MixedRealityInputSimulationProfile_get_ManipulationStartThreshold_mA5D7126CD46AC05DEA72A01DE74578EFCA61B9A1,
+	MixedRealityInputSimulationProfile_get_DefaultHandDistance_m3D175B58CA9EBA30092EA2A68D01EA4B94489C4A,
+	MixedRealityInputSimulationProfile_get_HandDepthMultiplier_m6604B44E146EA94CBD6109337F0190E999766DA8,
+	MixedRealityInputSimulationProfile_get_HandJitterAmount_mDDF19A0974AFB60C2E91D129017A3D0805143F60,
+	MixedRealityInputSimulationProfile_get_YawHandCWKey_m8D25D317DD2ADDDA33255C9F7E993E854CE32578,
+	MixedRealityInputSimulationProfile_get_YawHandCCWKey_mEAB61DF36DB74C3D75B4A74327E3DBAFC005C1F7,
+	MixedRealityInputSimulationProfile_get_PitchHandCWKey_m345C749AC96907F9EC2C9C2A67A9762CE9DA1FF0,
+	MixedRealityInputSimulationProfile_get_PitchHandCCWKey_mF31570A5CFFE2C565A701FF6318F8397DBAB689C,
+	MixedRealityInputSimulationProfile_get_RollHandCWKey_mCD75EA7E80AB5D53517352CABF579A50663C7BF9,
+	MixedRealityInputSimulationProfile_get_RollHandCCWKey_m1BE607B59E89E69C3ADBE1527F1C6309D9599D63,
+	MixedRealityInputSimulationProfile_get_HandRotationSpeed_m536913F900351CB840F04EEF9B71F97848A9EAC6,
+	MixedRealityInputSimulationProfile__ctor_m9769DFD9BDD54BA2B6A190798622CEDC78EA2EEB,
+	SimulatedArticulatedHand_get_SimulationMode_mF859372BC1E7EBA1FB344F3693308E1720483F94,
+	SimulatedArticulatedHand__ctor_m5518A9A451EE08DB313A88F7EDF1FCF72BFD5333,
+	SimulatedArticulatedHand_get_DefaultInteractions_mDE48166990BF99C0D3809DD299CDCC0FC06777B4,
+	SimulatedArticulatedHand_SetupDefaultInteractions_m9F9F05A361C810DB38582F466CE28CAD1A4049F5,
+	SimulatedArticulatedHand_UpdateInteractions_m982D348EDBBB3D148D95B9F7E4BF863AFB851DA9,
+	SimulatedGestureHand_get_SimulationMode_m3E7C9A35BFAA289E74524BCA142A3771A08B8ABB,
+	SimulatedGestureHand_get_navigationDelta_m0FD22233CFFA608F80B80E740D01DA6F8E22582A,
+	SimulatedGestureHand__ctor_m93581EB80551349B8F9FD7C292CBDBFA5243F97A,
+	SimulatedGestureHand_EnsureProfileSettings_m5FC39BD038B64363C40173D9E60B1BC1606C7A3A,
+	SimulatedGestureHand_get_DefaultInteractions_m304D32B99A064523F1EC9DFD6873DEB55A56A8AF,
+	SimulatedGestureHand_SetupDefaultInteractions_m43EB37ECD45A5DF02A51C70044EE4A423D45F0EA,
+	SimulatedGestureHand_UpdateInteractions_m96F24F8AEC7B7EC9C96EAF20378C4BBF49B26DF8,
+	SimulatedGestureHand_StartHoldGesture_m87B392088D04CA8BA496059372BEA4EA9690193B,
+	SimulatedGestureHand_CompleteHoldGesture_m7C39B209E91C625F0CEF0CFE1AE1586C91210B6E,
+	SimulatedGestureHand_CancelHoldGesture_m1FFD8370942E097B9614D23DE2665B4237A06D8F,
+	SimulatedGestureHand_StartManipulationNavigationGesture_m5BB94941825E6A294C20003F92DB36320395264F,
+	SimulatedGestureHand_UpdateManipulationNavigationGesture_m6B3CC8FA39C7C6B60A193A52A7F44F96671BF996,
+	SimulatedGestureHand_CompleteManipulationNavigationGesture_m15F1B2DE1DA6215DDCB16F67F0C74609EA425F05,
+	SimulatedGestureHand_CancelManipulationNavigationGesture_m054905520D7EC16A96DD045147AAF8672D7C94EF,
+	SimulatedGestureHand_UpdateNavigationRails_mDA8C27C354D28CD6BC7E7EB7E4A84A560D1B08A6,
+	SimulatedHandData_get_Timestamp_m6735904FDF143E193E90311EA6D49C450BB6C194,
+	SimulatedHandData_get_IsTracked_m44B1246872F6BE0B0A308EB2CC5259B6DFCF7FBF,
+	SimulatedHandData_get_Joints_m0137F96239589766E8132147EBBC5D1C24516B7C,
+	SimulatedHandData_get_IsPinching_mB7C40888399E88C93E755FE89D50234CF5F5C981,
+	SimulatedHandData_get_InputSystem_m74B585679CB887A0A5722F761D09C8AC21A5E799,
+	SimulatedHandData_Copy_m41ABA1DF6D6E58F82E3DF8D876F210F2D75BCC52,
+	SimulatedHandData_Update_m8F8FA53BE78C0B1B1B5AEDD04E81EE37283C2048,
+	SimulatedHandData_UpdateWithTimestamp_mFF3E503F08373285FE5EB42270638D275764FB3A,
+	SimulatedHandData__ctor_mC0F48E57A15AA83EB147D0682EAFD4B9A13A74E3,
+	SimulatedHandData__cctor_m9FF93A339C2E4BD70FD2048183E316BDEFD82849,
+	HandJointDataGenerator__ctor_mB815FE73EC4C1E2EA223BA3380BC7817ACED0EB0,
+	HandJointDataGenerator_Invoke_m453D8F003A5B2375922D4E902074628FA4AAB4F2,
+	HandJointDataGenerator_BeginInvoke_mA4657EBE145331D04C470650EAF342F7C67A646F,
+	HandJointDataGenerator_EndInvoke_m47C19E7BD246FFCEDFC1D4E6903DB18FAF1002F5,
+	NULL,
+	SimulatedHand__ctor_m93808D1348F3FB6FA63A335E89F47FB5345EE1C4,
+	SimulatedHand_TryGetJoint_m14B9D4449933B89DB099541E2901B4017D613B64,
+	SimulatedHand_UpdateState_m76167DB74444C36B375258174DBB71C74806C7E7,
+	NULL,
+	SimulatedHand__cctor_mD1BA38A6EB0C974530FDAEA1E4A70CE9C16F7B5A,
+	SimulatedHandState_get_Handedness_m86AEEFE654C1519FE95F9985374C9F010EE6FF36,
+	SimulatedHandState_get_IsPinching_m3342EF2FCE4F7A48DA2EFB9F7EBBC8AAFCC3B7DE,
+	SimulatedHandState_set_IsPinching_m65D25C94FC10461909F03181E2AE1A97E619DD46,
+	SimulatedHandState_get_Gesture_mD92DD18C9290E8F89105E0539065E44CA74AFFFF,
+	SimulatedHandState_set_Gesture_mC8DFF4D3309753AE88FB273F3C55CFBE8C7C1882,
+	SimulatedHandState_get_GestureBlending_m61B1AE6EA0F82008B919350872861BB83D1AE6DE,
+	SimulatedHandState_set_GestureBlending_mA9E930861977C6A7651CC2815A9F4C7335E2DB11,
+	SimulatedHandState__ctor_m349E18510C30BD47FC7E10C4991BE2C34D676433,
+	SimulatedHandState_Reset_m591616FB0D9CCE8F96F2DD72CAFBC745E6DCAB36,
+	SimulatedHandState_SetViewportPosition_mEAE22445325D52614D0E020CF8EFE8E542214CCB,
+	SimulatedHandState_SimulateInput_m4FB2C3E0E8BEC699B55A62FA37BD12F8E018FB6C,
+	SimulatedHandState_ResetGesture_m768808568035F9E15EBC17DF83D75F62A6069EBC,
+	SimulatedHandState_FillCurrentFrame_mAC7F8FC883C1A03381FAC69F7483883413845C5C,
+	SimulatedHandDataProvider__ctor_m5BDEF9D66F97A11A0B6CA2ADB5322B3DC9845BD9,
+	SimulatedHandDataProvider_UpdateHandData_mFF99D6415C49372571D42CE5F17ED9C6D90C539D,
+	SimulatedHandDataProvider_SimulateUserInput_m003E4A8FDD0889C01947CB4851803D1BF049404B,
+	SimulatedHandDataProvider_SimulateHandInput_mCC63E2A933A7A87E744034D157EFE773F852B134,
+	SimulatedHandDataProvider_SelectGesture_m3EED0D8A0B38C138C8C872805E35ACC67F70F37F,
+	SimulatedHandDataProvider_ToggleGesture_m9F8B8AE3A881E53C67ABC7B4B8187E45AEFDB0BD,
+	SimulatedHandDataProvider__cctor_m9A1A5FCC0ED72FF2FB58E0AF98B36C39C7D98887,
+	SimulatedHandUtils_CalculateJointRotations_mA0A1808305AB3D8B589A08E42F9155739D9221AE,
+	SimulatedHandUtils_GetPalmForwardVector_m9E069A581F41648ADB1D947EDBB726BD867602F4,
+	SimulatedHandUtils_GetPalmUpVector_mB1852A38F5919EC805FE801DB47DC6DA1E64CCD0,
+	SimulatedHandUtils_GetPalmRightVector_m9C646FB51F2C94823DC3EEE26383B22A88EA4301,
+	SimulatedHandUtils__ctor_m8FE7B6098201AE8BB6E8337DCDAAA7663D64F06F,
+	SimulatedHandUtils__cctor_mE9EC43A15625808EECB51ECE0AA4C867F45C6733,
+};
+static const int32_t s_InvokerIndices[118] = 
+{
+	14,
+	4,
+	444,
+	4,
+	268,
+	2207,
+	1384,
+	13,
+	13,
+	46,
+	17,
+	44,
+	17,
+	729,
+	729,
+	18,
+	17,
+	18,
+	18,
+	729,
+	729,
+	14,
+	14,
+	14,
+	14,
+	14,
+	14,
+	17,
+	18,
+	18,
+	18,
+	729,
+	18,
+	18,
+	18,
+	18,
+	18,
+	18,
+	729,
+	729,
+	729,
+	729,
+	729,
+	729,
+	18,
+	18,
+	18,
+	18,
+	18,
+	18,
+	729,
+	13,
+	18,
+	2260,
+	14,
+	44,
+	4,
+	18,
+	1384,
+	2260,
+	13,
+	14,
+	44,
+	4,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	13,
+	177,
+	17,
+	14,
+	17,
+	14,
+	4,
+	2717,
+	2718,
+	13,
+	8,
+	152,
+	4,
+	210,
+	4,
+	18,
+	2260,
+	2240,
+	4,
+	4,
+	8,
+	17,
+	17,
+	44,
+	18,
+	9,
+	729,
+	336,
+	44,
+	13,
+	1385,
+	2719,
+	13,
+	4,
+	4,
+	21,
+	13,
+	2720,
+	18,
+	66,
+	8,
+	2721,
+	2112,
+	2722,
+	2722,
+	13,
+	8,
+};
+extern const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_InputSimulationCodeGenModule;
+const Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_InputSimulationCodeGenModule = 
+{
+	"Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll",
+	118,
+	s_methodPointers,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+};

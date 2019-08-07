@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="Mankeliratas"/>
+
+</Tracking>
+
+<Assembly name="Mankeliratass_assembly" assemblyId="6e4f083b2251411aa134fd5722098ae6">
+<Part name="Mankeliratas" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-0.0564638 0.0444042 0.146218" rotation="AD: 0.9999999996492822 0.003838316984294583 0.007708388354292078 127.061" trained="yes">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

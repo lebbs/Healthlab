@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="lamppu"/>
+
+</Tracking>
+
+<Assembly name="lamppus_assembly" assemblyId="dd9583525d274e63afcc359cae96d230">
+<Part name="lamppu" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="0.19018 -0.00941071 0.280537" rotation="AD: 0.999972960435027 -0.03620990244914867 0.21058268566059016 199.091" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

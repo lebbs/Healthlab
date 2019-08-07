@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="14.0" toolVersion="7.0.0">
+<ModelTarget name="lamppu" targetId="105a4e4dc9d14619afbcd6324a7a13ea" version="11.1" toolVersion="8.3.8" bbox="0.179300 0.033756 -0.004700 0.275702 0.053300 0.091698" previewImage="105a4e4dc9d14619afbcd6324a7a13ea_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="lamppus_assembly" assemblyId="dd9583525d274e63afcc359cae96d230">
+<Part name="lamppu" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="0.19018 -0.00941071 0.280537" rotation="AD: 0.999972960435027 -0.03620990244914867 0.21058268566059016 199.091" image="lamppu_viewpoint_0000.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>

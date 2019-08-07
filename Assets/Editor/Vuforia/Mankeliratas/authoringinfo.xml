@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="14.0" toolVersion="7.0.0">
+<ModelTarget name="Mankeliratas" targetId="73f8cdeb9eb244b4a0b013da2b68fc66" version="11.1" toolVersion="8.3.8" bbox="-0.106860 0.000003 -0.000000 -0.000002 0.106886 0.044650" previewImage="73f8cdeb9eb244b4a0b013da2b68fc66_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="Mankeliratass_assembly" assemblyId="89dd938eb75d46e487835ef741b4df3d">
+<Part name="Mankeliratas" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-0.0551166 0.0455078 0.124817" rotation="AD: 0.9999999748289369 -0.01032487608587967 -0.023708931412222144 132.949" image="Mankeliratas_viewpoint_0000.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>

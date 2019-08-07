@@ -1,0 +1,35 @@
+3.6 8:30-15:30
+Työnkuvan läpikäyntiä, työsopimuksen allekirjoittaminen ja taustatutkimuksen tekeminen. 
+4.6 8.00-16.00
+Valmistelua ja tutustumista hololens:in ja unityn yhteistoimintaan. Tarvittavien sovelluksien ja pakettien asennusta, sekä testisovelluksen testausta. 
+5.6 8.00 - 16.00
+Hololensin ja unityn tutkiminen. Ympäristöjen valmistelua ja testausta
+6.6 8.00 - 16.00
+Projektin aloittaminen ja testaaminen. Yhteensopivuusongelmien selvittämistä. 
+7.6 ROCKFEST
+10.6 8.00 - 16.00
+Projektin jatkaminen. UI:n suunittelua ja alustavaa toteutusta ja koodaamista. 
+11.6 7.30-15.30
+UI:n suunittelu ja koodaaminen
+12.6 8.00-16.00
+UI:n testaaminen ja koodaus. Ongelmia Unityn versioiden ja Hololens laitteen yhteentoimivuudessa. 
+Vuforian testaaminen. 
+13.6. 8-16
+UI:n testaaminen ja koodaus. Ongelmia Unityn versioiden ja Hololens laitteen yhteentoimivuudessa. 
+Vuforian testaaminen jatkuu. ei onnistuneita kokeiluita
+14.6 8-16
+UI:n testaaminen ja koodaus. Ongelmia Unityn versioiden ja Hololens laitteen yhteentoimivuudessa. 
+Vuforian testaaminen. 
+17.6 8-16
+Vuforian ongelmien selvittäminen
+18.6 8-16
+Vuforian ongelmien selvittäminen ja ui elementtien testaaminen
+19.6 8-16
+Vuforian ongelmat selvitetty. Vuforian testaaminen ja selvittäminen käytännössä
+20.6 8-16
+Vuforian ja sen komponenttien testaaminen. Videoplayerin koodaamista ja testaamista. 
+21.6 8-16
+Videoplayer jatkokehitys ja sen testaaminen käytännössä.
+24.6 8-16 Hololens spatialawareness järjestelmän tutkiminen ja testaaminen
+25.6 8-16 Hololens spatialawarness tutkiminen, koodaaminne ja käytännön testaaminen luokassa
+2018.3.7f1

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="frame123100x100" size="0.026400 0.026400" />
+    <ImageTarget name="Test_1" size="0.020000 0.020000" />
+    <ImageTarget name="Untitled" size="39.687500 27.781250" />
+    <ImageTarget name="frame23" size="0.790000 0.790000" />
+    <ImageTarget name="frame2" size="0.080000 0.104000" />
+    <ImageTarget name="frame" size="0.500000 0.650000" />
+  </Tracking>
+</QCARConfig>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="aivoverisuonet_pieni"/>
+
+</Tracking>
+
+<Assembly name="aivoverisuonet_pienis_assembly" assemblyId="eb9d3fc2090d4e6c8d6630655d6f2400">
+<Part name="aivoverisuonet_pieni" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="0.0188718 0.00626351 0.0492533" rotation="AD: -0.9196276760006868 -0.4358757129364838 2.150759782490986 171.043" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>
