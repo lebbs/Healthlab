@@ -67,7 +67,6 @@
 		<type fullname="Microsoft.Azure.SpatialAnchors.Unity.Samples.AzureSpatialAnchorsDemoConfiguration" preserve="nothing"/>
 		<type fullname="ObjectLoaderTesti" preserve="nothing"/>
 		<type fullname="Track" preserve="nothing"/>
-		<type fullname="UrlOpener" preserve="nothing"/>
 		<type fullname="VideoClips" preserve="nothing"/>
 		<type fullname="VideoProgressBar" preserve="nothing"/>
 		<type fullname="WorldSpaceVideo" preserve="nothing"/>
