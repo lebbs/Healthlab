@@ -523,6 +523,8 @@ struct VideoClips_tF4AD4672B89F2431B742126062E7A0A1815CE2EC;
 struct VideoLoaderURL_tC14D2846F5C1558D4AFFFB81F311627DDE10A7A3;
 // VideoLoaderURL/<LoadFromLikeCoroutine>d__6
 struct U3CLoadFromLikeCoroutineU3Ed__6_tDAA7C8E2D389AA46661D2D70BEC90E9DE32F7999;
+// VideoLoaderUrl
+struct VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF;
 // VideoPlayerScript
 struct VideoPlayerScript_t05C04910E7130960B157173D38B10D0648559529;
 // VideoProgressBar
@@ -1501,6 +1503,9 @@ IL2CPP_EXTERN_C const uint32_t VideoClips_SetCurrentTimeUI_m8E169B5A88CB6E185CD7
 IL2CPP_EXTERN_C const uint32_t VideoClips_SetTotalTimeUI_mD3370448BDA2F38BA616B8E779BE31DF7574842A_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t VideoLoaderURL_Awake_m433C4EE97E30E4FCCBE74E08222E647D38EB65DD_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t VideoLoaderURL_LoadFromLikeCoroutine_mF873E7D2B2F148AFA89DCEE1F5A0C8BEE8BD6032_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t VideoLoaderUrl_Awake_m1966FA23C0147C03EB0D6F9E31641E54C7A052FE_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t VideoLoaderUrl_SetCurrentTimeUI_mC87263D88B9BDAEA7F1614C8047CC91F6DA1642C_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t VideoLoaderUrl_SetTotalTimeUI_m087861F79746CF01D52239E9C9534411232BD017_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t VideoPlayerScript_Start_mBD9AEF57784D90D977544B15627F4BB962BBB6A1_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t VideoProgressBar_Awake_m047E651BE86F982B9D6EC9B9B626DC9B747196A9_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t VideoProgressBar_TrySkip_m2E963D61A7D6244130D29C8DF01BDBEDC31E53EC_MetadataUsageId;
@@ -10572,6 +10577,24 @@ public:
 };
 
 
+// UnityEngine.Video.VideoAudioOutputMode
+struct  VideoAudioOutputMode_t8CDE10B382F3C321345EC57C9164A9177139DC6F 
+{
+public:
+	// System.Int32 UnityEngine.Video.VideoAudioOutputMode::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(VideoAudioOutputMode_t8CDE10B382F3C321345EC57C9164A9177139DC6F, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // Values.BoolValue
 struct  BoolValue_t6773C254B8BE2E53D624C02B2E36CC8D14A7C2A6  : public NumericValue_t56304579C33BB0C73C9FCEA54FD5C6F3CB32D2AA
 {
@@ -13135,6 +13158,112 @@ public:
 	inline void set_videoClipsIndex_7(int32_t value)
 	{
 		___videoClipsIndex_7 = value;
+	}
+};
+
+
+// VideoLoaderUrl
+struct  VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF  : public MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429
+{
+public:
+	// System.Int32 VideoLoaderUrl::videoUrlIndex
+	int32_t ___videoUrlIndex_4;
+	// UnityEngine.AudioSource VideoLoaderUrl::audioSource
+	AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * ___audioSource_5;
+	// System.String[] VideoLoaderUrl::videoUrl
+	StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* ___videoUrl_6;
+	// UnityEngine.Video.VideoClip[] VideoLoaderUrl::videoClips
+	VideoClipU5BU5D_t0F389CDA1BEBF018B401260D1EFC28C0D2B769DD* ___videoClips_7;
+	// TMPro.TextMeshPro VideoLoaderUrl::currentMinutes
+	TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 * ___currentMinutes_8;
+	// TMPro.TextMeshPro VideoLoaderUrl::currentSeconds
+	TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 * ___currentSeconds_9;
+	// TMPro.TextMeshPro VideoLoaderUrl::totalMinutes
+	TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 * ___totalMinutes_10;
+	// TMPro.TextMeshPro VideoLoaderUrl::totalSeconds
+	TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 * ___totalSeconds_11;
+	// UnityEngine.Video.VideoPlayer VideoLoaderUrl::videoPlayer
+	VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * ___videoPlayer_12;
+
+public:
+	inline static int32_t get_offset_of_videoUrlIndex_4() { return static_cast<int32_t>(offsetof(VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF, ___videoUrlIndex_4)); }
+	inline int32_t get_videoUrlIndex_4() const { return ___videoUrlIndex_4; }
+	inline int32_t* get_address_of_videoUrlIndex_4() { return &___videoUrlIndex_4; }
+	inline void set_videoUrlIndex_4(int32_t value)
+	{
+		___videoUrlIndex_4 = value;
+	}
+
+	inline static int32_t get_offset_of_audioSource_5() { return static_cast<int32_t>(offsetof(VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF, ___audioSource_5)); }
+	inline AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * get_audioSource_5() const { return ___audioSource_5; }
+	inline AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C ** get_address_of_audioSource_5() { return &___audioSource_5; }
+	inline void set_audioSource_5(AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * value)
+	{
+		___audioSource_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___audioSource_5), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_videoUrl_6() { return static_cast<int32_t>(offsetof(VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF, ___videoUrl_6)); }
+	inline StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* get_videoUrl_6() const { return ___videoUrl_6; }
+	inline StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E** get_address_of_videoUrl_6() { return &___videoUrl_6; }
+	inline void set_videoUrl_6(StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* value)
+	{
+		___videoUrl_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___videoUrl_6), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_videoClips_7() { return static_cast<int32_t>(offsetof(VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF, ___videoClips_7)); }
+	inline VideoClipU5BU5D_t0F389CDA1BEBF018B401260D1EFC28C0D2B769DD* get_videoClips_7() const { return ___videoClips_7; }
+	inline VideoClipU5BU5D_t0F389CDA1BEBF018B401260D1EFC28C0D2B769DD** get_address_of_videoClips_7() { return &___videoClips_7; }
+	inline void set_videoClips_7(VideoClipU5BU5D_t0F389CDA1BEBF018B401260D1EFC28C0D2B769DD* value)
+	{
+		___videoClips_7 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___videoClips_7), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_currentMinutes_8() { return static_cast<int32_t>(offsetof(VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF, ___currentMinutes_8)); }
+	inline TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 * get_currentMinutes_8() const { return ___currentMinutes_8; }
+	inline TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 ** get_address_of_currentMinutes_8() { return &___currentMinutes_8; }
+	inline void set_currentMinutes_8(TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 * value)
+	{
+		___currentMinutes_8 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___currentMinutes_8), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_currentSeconds_9() { return static_cast<int32_t>(offsetof(VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF, ___currentSeconds_9)); }
+	inline TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 * get_currentSeconds_9() const { return ___currentSeconds_9; }
+	inline TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 ** get_address_of_currentSeconds_9() { return &___currentSeconds_9; }
+	inline void set_currentSeconds_9(TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 * value)
+	{
+		___currentSeconds_9 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___currentSeconds_9), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_totalMinutes_10() { return static_cast<int32_t>(offsetof(VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF, ___totalMinutes_10)); }
+	inline TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 * get_totalMinutes_10() const { return ___totalMinutes_10; }
+	inline TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 ** get_address_of_totalMinutes_10() { return &___totalMinutes_10; }
+	inline void set_totalMinutes_10(TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 * value)
+	{
+		___totalMinutes_10 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___totalMinutes_10), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_totalSeconds_11() { return static_cast<int32_t>(offsetof(VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF, ___totalSeconds_11)); }
+	inline TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 * get_totalSeconds_11() const { return ___totalSeconds_11; }
+	inline TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 ** get_address_of_totalSeconds_11() { return &___totalSeconds_11; }
+	inline void set_totalSeconds_11(TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 * value)
+	{
+		___totalSeconds_11 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___totalSeconds_11), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_videoPlayer_12() { return static_cast<int32_t>(offsetof(VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF, ___videoPlayer_12)); }
+	inline VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * get_videoPlayer_12() const { return ___videoPlayer_12; }
+	inline VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 ** get_address_of_videoPlayer_12() { return &___videoPlayer_12; }
+	inline void set_videoPlayer_12(VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * value)
+	{
+		___videoPlayer_12 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___videoPlayer_12), (void*)value);
 	}
 };
 
@@ -17139,15 +17268,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CLoadFromLikeCoroutineU3Ed__6_System_I
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_mA121DE1CAC8F25277DEB489DC7771209D91CAE33 (NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010 * __this, const RuntimeMethod* method);
 // UnityEngine.GameObject UnityEngine.Component::get_gameObject()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * Component_get_gameObject_m0B0570BA8DDD3CD78A9DB568EA18D7317686603C (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * __this, const RuntimeMethod* method);
-// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.Video.VideoPlayer>()
-inline VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * GameObject_AddComponent_TisVideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2_m0FC58A141D1F8863C8F68F94BC76190C53AA5032 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
-{
-	return ((  VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_mE053F7A95F30AFF07D69F0DED3DA13AE2EC25E03_gshared)(__this, method);
-}
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.AudioSource>()
 inline AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * GameObject_AddComponent_TisAudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C_mF8E45BF814846E1641335B8471A4AEAA2AD83E8F (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
 {
 	return ((  AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_mE053F7A95F30AFF07D69F0DED3DA13AE2EC25E03_gshared)(__this, method);
+}
+// System.Void UnityEngine.Video.VideoPlayer::set_audioOutputMode(UnityEngine.Video.VideoAudioOutputMode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_set_audioOutputMode_m95A8791FE87A490EAEF1959E7597E0CC1659227F (VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * __this, int32_t p0, const RuntimeMethod* method);
+// System.Void UnityEngine.Video.VideoPlayer::EnableAudioTrack(System.UInt16,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_EnableAudioTrack_m30901BF68B20BB8397E246FDDE699E5D513AAA5B (VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * __this, uint16_t p0, bool p1, const RuntimeMethod* method);
+// System.Void UnityEngine.Video.VideoPlayer::SetTargetAudioSource(System.UInt16,UnityEngine.AudioSource)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_SetTargetAudioSource_m98880F0925C0E7DDFCB946563A23613CFFC494FE (VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * __this, uint16_t p0, AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * p1, const RuntimeMethod* method);
+// System.Void VideoLoaderUrl::SetCurrentTimeUI()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoLoaderUrl_SetCurrentTimeUI_mC87263D88B9BDAEA7F1614C8047CC91F6DA1642C (VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF * __this, const RuntimeMethod* method);
+// System.Void UnityEngine.AudioSource::Play()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Play_m0BA206481892AA4AF7DB2900A0B0805076516164 (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * __this, const RuntimeMethod* method);
+// !!0 UnityEngine.GameObject::AddComponent<UnityEngine.Video.VideoPlayer>()
+inline VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * GameObject_AddComponent_TisVideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2_m0FC58A141D1F8863C8F68F94BC76190C53AA5032 (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * __this, const RuntimeMethod* method)
+{
+	return ((  VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * (*) (GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F *, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_mE053F7A95F30AFF07D69F0DED3DA13AE2EC25E03_gshared)(__this, method);
 }
 // System.Void VideoPlayerScript::LoadAndPlay()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayerScript_LoadAndPlay_m56C5584A974E99B866D9D91DD15F664D5C4478C3 (VideoPlayerScript_t05C04910E7130960B157173D38B10D0648559529 * __this, const RuntimeMethod* method);
@@ -20822,6 +20961,290 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * U3CLoadFromLikeCoroutineU3Ed_
 	{
 		RuntimeObject * L_0 = __this->get_U3CU3E2__current_1();
 		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void VideoLoaderUrl::Awake()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoLoaderUrl_Awake_m1966FA23C0147C03EB0D6F9E31641E54C7A052FE (VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VideoLoaderUrl_Awake_m1966FA23C0147C03EB0D6F9E31641E54C7A052FE_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// videoPlayer = GetComponent<VideoPlayer>();
+		VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * L_0 = Component_GetComponent_TisVideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2_m8BD724EFE5F13D9F3164EA576D0914D714758959(__this, /*hidden argument*/Component_GetComponent_TisVideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2_m8BD724EFE5F13D9F3164EA576D0914D714758959_RuntimeMethod_var);
+		__this->set_videoPlayer_12(L_0);
+		// audioSource = gameObject.AddComponent<AudioSource>();
+		GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_1 = Component_get_gameObject_m0B0570BA8DDD3CD78A9DB568EA18D7317686603C(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * L_2 = GameObject_AddComponent_TisAudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C_mF8E45BF814846E1641335B8471A4AEAA2AD83E8F(L_1, /*hidden argument*/GameObject_AddComponent_TisAudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C_mF8E45BF814846E1641335B8471A4AEAA2AD83E8F_RuntimeMethod_var);
+		__this->set_audioSource_5(L_2);
+		// }
+		return;
+	}
+}
+// System.Void VideoLoaderUrl::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoLoaderUrl_Start_mB48D562E9B66B912101330817A983D42E4DCB84D (VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF * __this, const RuntimeMethod* method)
+{
+	{
+		// videoPlayer.url = videoUrl[videoUrlIndex];
+		VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * L_0 = __this->get_videoPlayer_12();
+		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_1 = __this->get_videoUrl_6();
+		int32_t L_2 = __this->get_videoUrlIndex_4();
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		String_t* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		NullCheck(L_0);
+		VideoPlayer_set_url_m076BC425E754574E8DFCDFA7AC2A37A3EFD5AF21(L_0, L_4, /*hidden argument*/NULL);
+		// videoPlayer.targetTexture.Release();
+		VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * L_5 = __this->get_videoPlayer_12();
+		NullCheck(L_5);
+		RenderTexture_tBC47D853E3DA6511CD6C49DBF78D47B890FCD2F6 * L_6 = VideoPlayer_get_targetTexture_mDFF8E4B60BDFE26F5535E5D15CAAA8546DB939E3(L_5, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		RenderTexture_Release_m8CB0AC4A96E59F351807F2011EC2E8EC8C933FC5(L_6, /*hidden argument*/NULL);
+		// videoPlayer.audioOutputMode = VideoAudioOutputMode.AudioSource;
+		VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * L_7 = __this->get_videoPlayer_12();
+		NullCheck(L_7);
+		VideoPlayer_set_audioOutputMode_m95A8791FE87A490EAEF1959E7597E0CC1659227F(L_7, 1, /*hidden argument*/NULL);
+		// videoPlayer.EnableAudioTrack(2, true);
+		VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * L_8 = __this->get_videoPlayer_12();
+		NullCheck(L_8);
+		VideoPlayer_EnableAudioTrack_m30901BF68B20BB8397E246FDDE699E5D513AAA5B(L_8, (uint16_t)2, (bool)1, /*hidden argument*/NULL);
+		// videoPlayer.SetTargetAudioSource(2, audioSource);
+		VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * L_9 = __this->get_videoPlayer_12();
+		AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * L_10 = __this->get_audioSource_5();
+		NullCheck(L_9);
+		VideoPlayer_SetTargetAudioSource_m98880F0925C0E7DDFCB946563A23613CFFC494FE(L_9, (uint16_t)2, L_10, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void VideoLoaderUrl::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoLoaderUrl_Update_mD25EEF1D6569AB290754830CBF715679976622CB (VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF * __this, const RuntimeMethod* method)
+{
+	{
+		// if (videoPlayer.isPlaying)
+		VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * L_0 = __this->get_videoPlayer_12();
+		NullCheck(L_0);
+		bool L_1 = VideoPlayer_get_isPlaying_mC7CFE17762C14F2AFB1D73500317B9D25A7395DF(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// SetCurrentTimeUI();
+		VideoLoaderUrl_SetCurrentTimeUI_mC87263D88B9BDAEA7F1614C8047CC91F6DA1642C(__this, /*hidden argument*/NULL);
+	}
+
+IL_0013:
+	{
+		// }
+		return;
+	}
+}
+// System.Void VideoLoaderUrl::SetNextClip()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoLoaderUrl_SetNextClip_m87046B4F57B9B5BBD1E5D0CFCEBFB59B228C4654 (VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF * __this, const RuntimeMethod* method)
+{
+	{
+		// videoUrlIndex++;
+		int32_t L_0 = __this->get_videoUrlIndex_4();
+		__this->set_videoUrlIndex_4(((int32_t)il2cpp_codegen_add((int32_t)L_0, (int32_t)1)));
+		// if (videoUrlIndex >= videoUrl.Length)
+		int32_t L_1 = __this->get_videoUrlIndex_4();
+		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_2 = __this->get_videoUrl_6();
+		NullCheck(L_2);
+		if ((((int32_t)L_1) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_2)->max_length)))))))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		// videoUrlIndex = videoUrlIndex % videoUrl.Length;
+		int32_t L_3 = __this->get_videoUrlIndex_4();
+		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_4 = __this->get_videoUrl_6();
+		NullCheck(L_4);
+		__this->set_videoUrlIndex_4(((int32_t)((int32_t)L_3%(int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_4)->max_length)))))));
+	}
+
+IL_0033:
+	{
+		// videoPlayer.url = videoUrl[videoUrlIndex];
+		VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * L_5 = __this->get_videoPlayer_12();
+		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_6 = __this->get_videoUrl_6();
+		int32_t L_7 = __this->get_videoUrlIndex_4();
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		String_t* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_5);
+		VideoPlayer_set_url_m076BC425E754574E8DFCDFA7AC2A37A3EFD5AF21(L_5, L_9, /*hidden argument*/NULL);
+		// videoPlayer.Play();
+		VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * L_10 = __this->get_videoPlayer_12();
+		NullCheck(L_10);
+		VideoPlayer_Play_m2BCD775F42A36AC291C7B32D9E4D934EF0B91257(L_10, /*hidden argument*/NULL);
+		// audioSource.Play();
+		AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * L_11 = __this->get_audioSource_5();
+		NullCheck(L_11);
+		AudioSource_Play_m0BA206481892AA4AF7DB2900A0B0805076516164(L_11, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void VideoLoaderUrl::SetPreviusClip()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoLoaderUrl_SetPreviusClip_m6968B2FE10CEBC17A2A5781DA8511D50A19259A5 (VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF * __this, const RuntimeMethod* method)
+{
+	{
+		// videoUrlIndex--;
+		int32_t L_0 = __this->get_videoUrlIndex_4();
+		__this->set_videoUrlIndex_4(((int32_t)il2cpp_codegen_subtract((int32_t)L_0, (int32_t)1)));
+		// if (videoUrlIndex <= videoClips.Length)
+		int32_t L_1 = __this->get_videoUrlIndex_4();
+		VideoClipU5BU5D_t0F389CDA1BEBF018B401260D1EFC28C0D2B769DD* L_2 = __this->get_videoClips_7();
+		NullCheck(L_2);
+		if ((((int32_t)L_1) > ((int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_2)->max_length)))))))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		// videoUrlIndex = videoUrlIndex % videoUrl.Length;
+		int32_t L_3 = __this->get_videoUrlIndex_4();
+		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_4 = __this->get_videoUrl_6();
+		NullCheck(L_4);
+		__this->set_videoUrlIndex_4(((int32_t)((int32_t)L_3%(int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_4)->max_length)))))));
+	}
+
+IL_0033:
+	{
+		// videoPlayer.url = videoUrl[videoUrlIndex];
+		VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * L_5 = __this->get_videoPlayer_12();
+		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_6 = __this->get_videoUrl_6();
+		int32_t L_7 = __this->get_videoUrlIndex_4();
+		NullCheck(L_6);
+		int32_t L_8 = L_7;
+		String_t* L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		NullCheck(L_5);
+		VideoPlayer_set_url_m076BC425E754574E8DFCDFA7AC2A37A3EFD5AF21(L_5, L_9, /*hidden argument*/NULL);
+		// videoPlayer.Play();
+		VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * L_10 = __this->get_videoPlayer_12();
+		NullCheck(L_10);
+		VideoPlayer_Play_m2BCD775F42A36AC291C7B32D9E4D934EF0B91257(L_10, /*hidden argument*/NULL);
+		// audioSource.Play();
+		AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * L_11 = __this->get_audioSource_5();
+		NullCheck(L_11);
+		AudioSource_Play_m0BA206481892AA4AF7DB2900A0B0805076516164(L_11, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void VideoLoaderUrl::SetCurrentTimeUI()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoLoaderUrl_SetCurrentTimeUI_mC87263D88B9BDAEA7F1614C8047CC91F6DA1642C (VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VideoLoaderUrl_SetCurrentTimeUI_mC87263D88B9BDAEA7F1614C8047CC91F6DA1642C_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	float V_2 = 0.0f;
+	int32_t V_3 = 0;
+	{
+		// string minutes = Mathf.Floor((int)videoPlayer.time / 60).ToString("00");
+		VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * L_0 = __this->get_videoPlayer_12();
+		NullCheck(L_0);
+		double L_1 = VideoPlayer_get_time_mF842FC1E9A1FD2333C7C9D13338D3B178665564A(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_tFBDE6467D269BFE410605C7D806FD9991D4A89CB_il2cpp_TypeInfo_var);
+		float L_2 = floorf((((float)((float)((int32_t)((int32_t)(((int32_t)((int32_t)L_1)))/(int32_t)((int32_t)60)))))));
+		V_2 = L_2;
+		String_t* L_3 = Single_ToString_m211B5E14B0C60667C56838D5C3788CFA58670DDE((float*)(&V_2), _stringLiteralFB96549631C835EB239CD614CC6B5CB7D295121A, /*hidden argument*/NULL);
+		V_0 = L_3;
+		// string seconds = ((int)videoPlayer.time % 60).ToString("00");
+		VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * L_4 = __this->get_videoPlayer_12();
+		NullCheck(L_4);
+		double L_5 = VideoPlayer_get_time_mF842FC1E9A1FD2333C7C9D13338D3B178665564A(L_4, /*hidden argument*/NULL);
+		V_3 = ((int32_t)((int32_t)(((int32_t)((int32_t)L_5)))%(int32_t)((int32_t)60)));
+		String_t* L_6 = Int32_ToString_m5A125A41C41701E41FA0C4CC52CADBC73C1C96D8((int32_t*)(&V_3), _stringLiteralFB96549631C835EB239CD614CC6B5CB7D295121A, /*hidden argument*/NULL);
+		V_1 = L_6;
+		// currentMinutes.text = minutes;
+		TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 * L_7 = __this->get_currentMinutes_8();
+		String_t* L_8 = V_0;
+		NullCheck(L_7);
+		TMP_Text_set_text_m079B767F4E146B6F9150EC2208B5C2736207251A(L_7, L_8, /*hidden argument*/NULL);
+		// currentSeconds.text = seconds;
+		TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 * L_9 = __this->get_currentSeconds_9();
+		String_t* L_10 = V_1;
+		NullCheck(L_9);
+		TMP_Text_set_text_m079B767F4E146B6F9150EC2208B5C2736207251A(L_9, L_10, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void VideoLoaderUrl::SetTotalTimeUI()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoLoaderUrl_SetTotalTimeUI_m087861F79746CF01D52239E9C9534411232BD017 (VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (VideoLoaderUrl_SetTotalTimeUI_m087861F79746CF01D52239E9C9534411232BD017_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	float V_2 = 0.0f;
+	int32_t V_3 = 0;
+	{
+		// string minutes = Mathf.Floor((int)videoPlayer.clip.length / 60).ToString("00");
+		VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * L_0 = __this->get_videoPlayer_12();
+		NullCheck(L_0);
+		VideoClip_tA4039CBBC6F9C3AD62B067964A6C20C6FB7376D5 * L_1 = VideoPlayer_get_clip_mA2C3AC016BB7B09855C56A11843AE60EB4D36B76(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		double L_2 = VideoClip_get_length_m33EC3F6A3D2F851ECC2B672D1603F956AB1887FB(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_tFBDE6467D269BFE410605C7D806FD9991D4A89CB_il2cpp_TypeInfo_var);
+		float L_3 = floorf((((float)((float)((int32_t)((int32_t)(((int32_t)((int32_t)L_2)))/(int32_t)((int32_t)60)))))));
+		V_2 = L_3;
+		String_t* L_4 = Single_ToString_m211B5E14B0C60667C56838D5C3788CFA58670DDE((float*)(&V_2), _stringLiteralFB96549631C835EB239CD614CC6B5CB7D295121A, /*hidden argument*/NULL);
+		V_0 = L_4;
+		// string seconds = ((int)videoPlayer.clip.length % 60).ToString("00");
+		VideoPlayer_tFC1C27AF83D59A5213B2AC561B43FD7E19FE02F2 * L_5 = __this->get_videoPlayer_12();
+		NullCheck(L_5);
+		VideoClip_tA4039CBBC6F9C3AD62B067964A6C20C6FB7376D5 * L_6 = VideoPlayer_get_clip_mA2C3AC016BB7B09855C56A11843AE60EB4D36B76(L_5, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		double L_7 = VideoClip_get_length_m33EC3F6A3D2F851ECC2B672D1603F956AB1887FB(L_6, /*hidden argument*/NULL);
+		V_3 = ((int32_t)((int32_t)(((int32_t)((int32_t)L_7)))%(int32_t)((int32_t)60)));
+		String_t* L_8 = Int32_ToString_m5A125A41C41701E41FA0C4CC52CADBC73C1C96D8((int32_t*)(&V_3), _stringLiteralFB96549631C835EB239CD614CC6B5CB7D295121A, /*hidden argument*/NULL);
+		V_1 = L_8;
+		// totalMinutes.text = minutes;
+		TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 * L_9 = __this->get_totalMinutes_10();
+		String_t* L_10 = V_0;
+		NullCheck(L_9);
+		TMP_Text_set_text_m079B767F4E146B6F9150EC2208B5C2736207251A(L_9, L_10, /*hidden argument*/NULL);
+		// totalSeconds.text = seconds;
+		TextMeshPro_t6FF60D9DCAF295045FE47C014CC855C5784752E2 * L_11 = __this->get_totalSeconds_11();
+		String_t* L_12 = V_1;
+		NullCheck(L_11);
+		TMP_Text_set_text_m079B767F4E146B6F9150EC2208B5C2736207251A(L_11, L_12, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void VideoLoaderUrl::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoLoaderUrl__ctor_m49121609401C4055DF10262BD4F4257A5F51B607 (VideoLoaderUrl_t4752D7E6EE9FE8702F86BD906C5FC6E37D70EFAF * __this, const RuntimeMethod* method)
+{
+	{
+		MonoBehaviour__ctor_mEAEC84B222C60319D593E456D769B3311DFCEF97(__this, /*hidden argument*/NULL);
+		return;
 	}
 }
 #ifdef __clang__

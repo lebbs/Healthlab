@@ -68,6 +68,7 @@
 		<type fullname="ObjectLoaderTesti" preserve="nothing"/>
 		<type fullname="Track" preserve="nothing"/>
 		<type fullname="VideoClips" preserve="nothing"/>
+		<type fullname="VideoLoaderUrl" preserve="nothing"/>
 		<type fullname="VideoProgressBar" preserve="nothing"/>
 		<type fullname="WorldSpaceVideo" preserve="nothing"/>
 		<type fullname="loadTxt" preserve="nothing"/>

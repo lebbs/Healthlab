@@ -4,6 +4,7 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Networking;
 public class loadTxt : MonoBehaviour
 {
 
@@ -22,40 +23,108 @@ public class loadTxt : MonoBehaviour
     //    Read("Assets/test.txt");
     //    gameObject.GetComponent<Text>().text = text;
     //}
-
+    private int urlIndex = 0;
     private string textFromWWW;
-    private string url = "https://hololensfiles.blob.core.windows.net/share/jeejee.txt?st=2019-08-08T05%3A26%3A08Z&se=2025-08-09T05%3A26%3A00Z&sp=rl&sv=2018-03-28&sr=b&sig=Lj5vUDoWL5qOy2fZvPDqfrqIWfLwMVCyIkZ85y5LtJo%3D"; // <-- enter your url here
-
+    public string[] url;
+   
     void Start()
     {
         StartCoroutine(GetTextFromWWW());
     }
 
-    void OnGUI()
-    {
-        GUI.Label(new Rect(0, 0, 200, 200), textFromWWW);
-    }
+    //void OnGUI()
+    //{
+    //    GUI.Label(new Rect(0, 0, 200, 200), textFromWWW);
+    //}
 
     IEnumerator GetTextFromWWW()
     {
-        WWW www = new WWW(url);
+
+        //urlIndex = url.Length;
+
+        WWW www = new WWW(url[urlIndex]);
+
+        //using (UnityWebRequest wwwTxt = UnityWebRequestTexture.GetTexture(url))
+        //{
+        //    yield return wwwTxt.SendWebRequest();
+        //    gameObject.GetComponent<Text>().text = textFromWWW;
+        //}
 
         yield return www;
 
         if (www.error != null)
         {
-            Debug.Log("Ooops, something went wrong...");
+            Debug.Log("Something went wrong...");
         }
         else
         {
             textFromWWW = www.text;
-            gameObject.GetComponent<Text>().text = textFromWWW;
-            
+            gameObject.GetComponent<TextMeshPro>().text = textFromWWW;
+
         }
+
     }
 
+    public void ButtonPressedNext()
+    {
+        //StartCoroutine(GetTextFromWWW());
+        Debug.Log("SEURAAVA");
+        if (urlIndex <= url.Length)
+        {
+
+            urlIndex++;
+            StartCoroutine(GetTextFromWWW());
+        }
+        //else
+        //{
+        //    urlIndex--;
+        //}
+
+        if (urlIndex >= url.Length)
+        {
+            urlIndex = 0;
+        }
+
+        //else
+        //{
+        //    urlIndex--;
+        //}
 
 
+    }
+
+    public void ButtonPressedPrevious()
+    {
+        //urlIndex = url.Length;
+
+        //StartCoroutine(GetTextFromWWW());
+        Debug.Log("SEURAAVA");
+        if (urlIndex > 0)
+        {
+           
+            urlIndex--;
+            StartCoroutine(GetTextFromWWW());
+        }
+        else
+        {
+            urlIndex--;
+        }
+
+        //if (urlIndex <= url.Length)
+        //{
+        //    urlIndex = 0;
+        //}
+
+        //Debug.Log("Edellinen");
+
+        //if(urlIndex >= 0)
+        //{
+
+        //    urlIndex--;
+        //    StartCoroutine(GetTextFromWWW());
+
+        //}
+    }
 
 
 
