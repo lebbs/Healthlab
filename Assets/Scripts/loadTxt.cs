@@ -69,21 +69,26 @@ public class loadTxt : MonoBehaviour
     {
         //StartCoroutine(GetTextFromWWW());
         Debug.Log("SEURAAVA");
-        if (urlIndex <= url.Length)
+
+        urlIndex++;
+
+        if (urlIndex >= url.Length)
         {
 
-            urlIndex++;
-            StartCoroutine(GetTextFromWWW());
+            urlIndex = urlIndex % url.Length;
         }
+        StartCoroutine(GetTextFromWWW());
+
+
         //else
         //{
         //    urlIndex--;
         //}
 
-        if (urlIndex >= url.Length)
-        {
-            urlIndex = 0;
-        }
+        //if (urlIndex >= url.Length)
+        //{
+        //    urlIndex = 0;
+        //}
 
         //else
         //{
@@ -98,18 +103,18 @@ public class loadTxt : MonoBehaviour
         //urlIndex = url.Length;
 
         //StartCoroutine(GetTextFromWWW());
-        Debug.Log("SEURAAVA");
-        if (urlIndex > 0)
-        {
-           
-            urlIndex--;
-            StartCoroutine(GetTextFromWWW());
-        }
-        else
-        {
-            urlIndex--;
-        }
 
+        urlIndex--;
+
+        Debug.Log("SEURAAVA");
+        if (urlIndex <= url.Length)
+        {
+
+            urlIndex = urlIndex % url.Length;
+            
+          
+        }
+        StartCoroutine(GetTextFromWWW());
         //if (urlIndex <= url.Length)
         //{
         //    urlIndex = 0;
