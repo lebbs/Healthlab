@@ -76,19 +76,13 @@
 	</assembly>
 	<assembly fullname="GitHub.Unity.45">
 		<type fullname="GitHub.Unity.ApplicationCache" preserve="nothing"/>
-		<type fullname="GitHub.Unity.BranchesCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.EnvironmentCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.GitAheadBehindCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.GitLocksCache" preserve="nothing"/>
-		<type fullname="GitHub.Unity.GitLogCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.GitStatusCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.GitUserCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.RepositoryInfoCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.Window" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="Microsoft.MixedReality.Toolkit.Core.Inspectors">
-		<type fullname="Microsoft.MixedReality.Toolkit.Editor.MixedRealityCameraProfileInspector" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.Editor.MixedRealityToolkitConfigurationProfileInspector" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit.SDK">
 		<type fullname="Microsoft.MixedReality.Toolkit.Examples.Demos.PhysicalPressEventRouter" preserve="nothing"/>
