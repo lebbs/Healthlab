@@ -7274,7 +7274,7 @@ IL_000e:
 IL_0012:
 	{
 		V_2 = G_B3_0;
-		DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * L_5 = VirtFuncInvoker0< DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * >::Invoke(48 /* I18N.CJK.DbcsConvert I18N.CJK.DbcsEncoding::GetConvert() */, __this);
+		DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * L_5 = VirtFuncInvoker0< DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * >::Invoke(47 /* I18N.CJK.DbcsConvert I18N.CJK.DbcsEncoding::GetConvert() */, __this);
 		V_3 = L_5;
 		V_4 = (EncoderFallbackBuffer_tE878BFB956A0F4A1D630C08CA42B170534A3FD5C *)NULL;
 		int32_t L_6 = ___charIndex1;
@@ -7446,7 +7446,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CP936_GetBytes_mA4FEC1124664580A83DCC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CP936_GetCharCount_mCC9CF514FBAB413B0B43391C13112A72CF5B8251 (CP936_t4BDE60A94DAD852056699BA81E091662DAAC083B * __this, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___bytes0, int32_t ___index1, int32_t ___count2, const RuntimeMethod* method)
 {
 	{
-		Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * L_0 = VirtFuncInvoker0< Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * >::Invoke(39 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, __this);
+		Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * L_0 = VirtFuncInvoker0< Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * >::Invoke(38 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, __this);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_1 = ___bytes0;
 		int32_t L_2 = ___index1;
 		int32_t L_3 = ___count2;
@@ -7459,7 +7459,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CP936_GetCharCount_mCC9CF514FBAB413B0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CP936_GetChars_mFCCD74834F37C535CC665208B319199DB650863F (CP936_t4BDE60A94DAD852056699BA81E091662DAAC083B * __this, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___bytes0, int32_t ___byteIndex1, int32_t ___byteCount2, CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* ___chars3, int32_t ___charIndex4, const RuntimeMethod* method)
 {
 	{
-		Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * L_0 = VirtFuncInvoker0< Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * >::Invoke(39 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, __this);
+		Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * L_0 = VirtFuncInvoker0< Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * >::Invoke(38 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, __this);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_1 = ___bytes0;
 		int32_t L_2 = ___byteIndex1;
 		int32_t L_3 = ___byteCount2;
@@ -7480,7 +7480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * L_0 = VirtFuncInvoker0< DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * >::Invoke(48 /* I18N.CJK.DbcsConvert I18N.CJK.DbcsEncoding::GetConvert() */, __this);
+		DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * L_0 = VirtFuncInvoker0< DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * >::Invoke(47 /* I18N.CJK.DbcsConvert I18N.CJK.DbcsEncoding::GetConvert() */, __this);
 		CP936Decoder_t3999004C41487EB070ECA1117E927CE1E70B9674 * L_1 = (CP936Decoder_t3999004C41487EB070ECA1117E927CE1E70B9674 *)il2cpp_codegen_object_new(CP936Decoder_t3999004C41487EB070ECA1117E927CE1E70B9674_il2cpp_TypeInfo_var);
 		CP936Decoder__ctor_m6A8625C58D5F7B180A29CBDF2BFC7709650DDDF1(L_1, L_0, /*hidden argument*/NULL);
 		return L_1;
@@ -8045,7 +8045,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CP950_GetByteCount_mCA444B3DC1E1BA052
 	uint8_t V_3 = 0x0;
 	uint8_t V_4 = 0x0;
 	{
-		DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * L_0 = VirtFuncInvoker0< DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * >::Invoke(48 /* I18N.CJK.DbcsConvert I18N.CJK.DbcsEncoding::GetConvert() */, __this);
+		DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * L_0 = VirtFuncInvoker0< DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * >::Invoke(47 /* I18N.CJK.DbcsConvert I18N.CJK.DbcsEncoding::GetConvert() */, __this);
 		V_0 = L_0;
 		V_1 = 0;
 		goto IL_0054;
@@ -8159,7 +8159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CP950_GetBytes_mEF84E5548BC3E76F1572C
 		int32_t L_1 = ___charIndex1;
 		int32_t L_2 = ___charCount2;
 		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_2));
-		DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * L_3 = VirtFuncInvoker0< DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * >::Invoke(48 /* I18N.CJK.DbcsConvert I18N.CJK.DbcsEncoding::GetConvert() */, __this);
+		DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * L_3 = VirtFuncInvoker0< DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * >::Invoke(47 /* I18N.CJK.DbcsConvert I18N.CJK.DbcsEncoding::GetConvert() */, __this);
 		V_2 = L_3;
 		V_3 = (EncoderFallbackBuffer_tE878BFB956A0F4A1D630C08CA42B170534A3FD5C *)NULL;
 		int32_t L_4 = ___byteIndex4;
@@ -8286,7 +8286,7 @@ IL_00a2:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CP950_GetChars_mA0C7F2EEE5707ED420E7AB47FA9CFAE67B969AEE (CP950_t397C8C5C326EAD9628FAC2201A1E7A92043276B8 * __this, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___bytes0, int32_t ___byteIndex1, int32_t ___byteCount2, CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* ___chars3, int32_t ___charIndex4, const RuntimeMethod* method)
 {
 	{
-		Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * L_0 = VirtFuncInvoker0< Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * >::Invoke(39 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, __this);
+		Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * L_0 = VirtFuncInvoker0< Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * >::Invoke(38 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, __this);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_1 = ___bytes0;
 		int32_t L_2 = ___byteIndex1;
 		int32_t L_3 = ___byteCount2;
@@ -8307,7 +8307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * L_0 = VirtFuncInvoker0< DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * >::Invoke(48 /* I18N.CJK.DbcsConvert I18N.CJK.DbcsEncoding::GetConvert() */, __this);
+		DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * L_0 = VirtFuncInvoker0< DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * >::Invoke(47 /* I18N.CJK.DbcsConvert I18N.CJK.DbcsEncoding::GetConvert() */, __this);
 		CP950Decoder_tD0326757F818AE4EC8295B5790D1E62179A8D414 * L_1 = (CP950Decoder_tD0326757F818AE4EC8295B5790D1E62179A8D414 *)il2cpp_codegen_object_new(CP950Decoder_tD0326757F818AE4EC8295B5790D1E62179A8D414_il2cpp_TypeInfo_var);
 		CP950Decoder__ctor_m48FA73718C9D31A405FF4611FC746D436000D5D8(L_1, L_0, /*hidden argument*/NULL);
 		return L_1;
@@ -8951,7 +8951,7 @@ IL_0022:
 		Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7 * L_6 = __this->get_stream_0();
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_7 = V_2;
 		NullCheck(L_6);
-		int32_t L_8 = VirtFuncInvoker3< int32_t, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(28 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_6, L_7, 0, 8);
+		int32_t L_8 = VirtFuncInvoker3< int32_t, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(27 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_6, L_7, 0, 8);
 		if ((!(((uint32_t)L_8) == ((uint32_t)8))))
 		{
 			goto IL_009c;
@@ -9005,7 +9005,7 @@ IL_0022:
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_37 = V_4;
 		int32_t L_38 = V_3;
 		NullCheck(L_36);
-		int32_t L_39 = VirtFuncInvoker3< int32_t, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(28 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_36, L_37, 0, L_38);
+		int32_t L_39 = VirtFuncInvoker3< int32_t, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(27 /* System.Int32 System.IO.Stream::Read(System.Byte[],System.Int32,System.Int32) */, L_36, L_37, 0, L_38);
 		int32_t L_40 = V_3;
 		if ((!(((uint32_t)L_39) == ((uint32_t)L_40))))
 		{
@@ -9347,7 +9347,7 @@ IL_004e:
 		int32_t L_16 = ___index1;
 		int32_t L_17 = ___count2;
 		CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* L_18 = V_0;
-		int32_t L_19 = VirtFuncInvoker5< int32_t, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t, CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2*, int32_t >::Invoke(34 /* System.Int32 System.Text.Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32) */, __this, L_15, L_16, L_17, L_18, 0);
+		int32_t L_19 = VirtFuncInvoker5< int32_t, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t, CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2*, int32_t >::Invoke(33 /* System.Int32 System.Text.Encoding::GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32) */, __this, L_15, L_16, L_17, L_18, 0);
 		return L_19;
 	}
 }
@@ -11535,7 +11535,7 @@ IL_03bb:
 			int32_t L_79 = V_7;
 			Stream_tFC50657DD5AAB87770987F9179D934A51D99D5E7 * L_80 = V_4;
 			NullCheck(L_80);
-			int32_t L_81 = VirtFuncInvoker0< int32_t >::Invoke(29 /* System.Int32 System.IO.Stream::ReadByte() */, L_80);
+			int32_t L_81 = VirtFuncInvoker0< int32_t >::Invoke(28 /* System.Int32 System.IO.Stream::ReadByte() */, L_80);
 			*((int8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_78, (int32_t)L_79))) = (int8_t)(((int32_t)((uint8_t)L_81)));
 			int32_t L_82 = V_7;
 			V_7 = ((int32_t)il2cpp_codegen_add((int32_t)L_82, (int32_t)1));
@@ -14504,7 +14504,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t KoreanEncoding_GetByteCount_m2F57B6F4
 	uint8_t V_4 = 0x0;
 	{
 		V_0 = 0;
-		DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * L_0 = VirtFuncInvoker0< DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * >::Invoke(48 /* I18N.CJK.DbcsConvert I18N.CJK.DbcsEncoding::GetConvert() */, __this);
+		DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * L_0 = VirtFuncInvoker0< DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * >::Invoke(47 /* I18N.CJK.DbcsConvert I18N.CJK.DbcsEncoding::GetConvert() */, __this);
 		V_1 = L_0;
 		goto IL_0054;
 	}
@@ -14617,7 +14617,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t KoreanEncoding_GetBytes_m6CCDB5116210
 		int32_t L_1 = ___charIndex1;
 		int32_t L_2 = ___charCount2;
 		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)L_2));
-		DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * L_3 = VirtFuncInvoker0< DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * >::Invoke(48 /* I18N.CJK.DbcsConvert I18N.CJK.DbcsEncoding::GetConvert() */, __this);
+		DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * L_3 = VirtFuncInvoker0< DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * >::Invoke(47 /* I18N.CJK.DbcsConvert I18N.CJK.DbcsEncoding::GetConvert() */, __this);
 		V_2 = L_3;
 		V_3 = (EncoderFallbackBuffer_tE878BFB956A0F4A1D630C08CA42B170534A3FD5C *)NULL;
 		int32_t L_4 = ___byteIndex4;
@@ -14744,7 +14744,7 @@ IL_00a2:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t KoreanEncoding_GetCharCount_m6D49F1FF24F669E0DA92B0DD6F67183919DEB092 (KoreanEncoding_t8BDC381887F9BCD23B128C18F8B579A955F4C031 * __this, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___bytes0, int32_t ___index1, int32_t ___count2, const RuntimeMethod* method)
 {
 	{
-		Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * L_0 = VirtFuncInvoker0< Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * >::Invoke(39 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, __this);
+		Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * L_0 = VirtFuncInvoker0< Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * >::Invoke(38 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, __this);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_1 = ___bytes0;
 		int32_t L_2 = ___index1;
 		int32_t L_3 = ___count2;
@@ -14757,7 +14757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t KoreanEncoding_GetCharCount_m6D49F1FF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t KoreanEncoding_GetChars_m47DC963EEAAB75043BC77930D57107AF511E3049 (KoreanEncoding_t8BDC381887F9BCD23B128C18F8B579A955F4C031 * __this, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___bytes0, int32_t ___byteIndex1, int32_t ___byteCount2, CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* ___chars3, int32_t ___charIndex4, const RuntimeMethod* method)
 {
 	{
-		Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * L_0 = VirtFuncInvoker0< Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * >::Invoke(39 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, __this);
+		Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * L_0 = VirtFuncInvoker0< Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA1F26 * >::Invoke(38 /* System.Text.Decoder System.Text.Encoding::GetDecoder() */, __this);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_1 = ___bytes0;
 		int32_t L_2 = ___byteIndex1;
 		int32_t L_3 = ___byteCount2;
@@ -14778,7 +14778,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Decoder_tEEF45EB6F965222036C49E8EC6BA8A0692AA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * L_0 = VirtFuncInvoker0< DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * >::Invoke(48 /* I18N.CJK.DbcsConvert I18N.CJK.DbcsEncoding::GetConvert() */, __this);
+		DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * L_0 = VirtFuncInvoker0< DbcsConvert_t594A84AACFDBB2B8EB4AAFEECC0A52BC632C8D8C * >::Invoke(47 /* I18N.CJK.DbcsConvert I18N.CJK.DbcsEncoding::GetConvert() */, __this);
 		bool L_1 = __this->get_useUHC_63();
 		KoreanDecoder_t68B71AD543C7BBAAEDC58D6DAE7A1E8CF5F5385E * L_2 = (KoreanDecoder_t68B71AD543C7BBAAEDC58D6DAE7A1E8CF5F5385E *)il2cpp_codegen_object_new(KoreanDecoder_t68B71AD543C7BBAAEDC58D6DAE7A1E8CF5F5385E_il2cpp_TypeInfo_var);
 		KoreanDecoder__ctor_m01E24CC0C4EA5B6970BD920A098C1EB0A397F504(L_2, L_0, L_1, /*hidden argument*/NULL);

@@ -249,8 +249,6 @@ struct AudioSampleProvider_tD5B209D07C5F1D4714F92069F4071068B9BC6913;
 struct ConsumeSampleFramesNativeFunction_tC1E0B1BFCF2C3D7F87D66FCFA2022369327D931D;
 // UnityEngine.Experimental.Audio.AudioSampleProvider/SampleFramesHandler
 struct SampleFramesHandler_t5179C92AFBB393A85144E9134A862C161726F6AF;
-// UnityEngine.MovieTexture
-struct MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982;
 // UnityEngine.Object
 struct Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0;
 // UnityEngine.Resolution[]
@@ -1590,15 +1588,6 @@ public:
 };
 
 
-// UnityEngine.MovieTexture
-struct  MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982  : public Texture_t387FE83BB848001FD06B14707AEA6D5A0F6A95F4
-{
-public:
-
-public:
-};
-
-
 // UnityEngine.WebCamTexture
 struct  WebCamTexture_tEC97A7A0A101B159FEC9A3E95B14E41DD84EFD73  : public Texture_t387FE83BB848001FD06B14707AEA6D5A0F6A95F4
 {
@@ -1880,12 +1869,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Microphone_EndRecord_m6DDB48A30B1A34A6E9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_IsRecording_m70F5B087E69C0077AA9238931776EDE123FCF122 (int32_t ___deviceID0, const RuntimeMethod* method);
 // System.Void UnityEngine.Microphone::GetDeviceCaps(System.Int32,System.Int32&,System.Int32&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Microphone_GetDeviceCaps_m4592CD4A6371544156A042579626B9351DCD7E93 (int32_t ___deviceID0, int32_t* ___minFreq1, int32_t* ___maxFreq2, const RuntimeMethod* method);
-// System.Void UnityEngine.MovieTexture::INTERNAL_CALL_Play(UnityEngine.MovieTexture)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieTexture_INTERNAL_CALL_Play_mA6F9F078055FE9F114BC2CFF29E2E727206471DC (MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982 * ___self0, const RuntimeMethod* method);
-// System.Void UnityEngine.MovieTexture::INTERNAL_CALL_Stop(UnityEngine.MovieTexture)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieTexture_INTERNAL_CALL_Stop_m30BB6436DCCD96F6B836A114A2A29E4749EBB854 (MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982 * ___self0, const RuntimeMethod* method);
-// System.Void UnityEngine.MovieTexture::INTERNAL_CALL_Pause(UnityEngine.MovieTexture)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieTexture_INTERNAL_CALL_Pause_mD3C62DE4C40447C5E2F56DF3683914AA2A7AB2FA (MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982 * ___self0, const RuntimeMethod* method);
 // System.String UnityEngine.WebCamDevice::get_name()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WebCamDevice_get_name_m4D7362BB29DC20B7C8EF47759A09D54DEE8031F7 (WebCamDevice_tA545BEDFAFD78866911F4837B8406845541B8F54 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.Texture::.ctor()
@@ -2661,25 +2644,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_pitch_mAB8F8CDB21A3139D3
 		return;
 	}
 }
-// System.Single UnityEngine.AudioSource::get_time()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AudioSource_get_time_m9EE836ADDDAB3598FD7F6D198F847C43E0FFBF52 (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * __this, const RuntimeMethod* method)
-{
-	typedef float (*AudioSource_get_time_m9EE836ADDDAB3598FD7F6D198F847C43E0FFBF52_ftn) (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C *);
-	static AudioSource_get_time_m9EE836ADDDAB3598FD7F6D198F847C43E0FFBF52_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (AudioSource_get_time_m9EE836ADDDAB3598FD7F6D198F847C43E0FFBF52_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::get_time()");
-	float retVal = _il2cpp_icall_func(__this);
-	return retVal;
-}
-// System.Void UnityEngine.AudioSource::set_time(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_time_m76B72F7AEF8B07469847BF8EFFC51991C9D695B1 (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * __this, float ___value0, const RuntimeMethod* method)
-{
-	typedef void (*AudioSource_set_time_m76B72F7AEF8B07469847BF8EFFC51991C9D695B1_ftn) (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C *, float);
-	static AudioSource_set_time_m76B72F7AEF8B07469847BF8EFFC51991C9D695B1_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (AudioSource_set_time_m76B72F7AEF8B07469847BF8EFFC51991C9D695B1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_time(System.Single)");
-	_il2cpp_icall_func(__this, ___value0);
-}
 // UnityEngine.AudioClip UnityEngine.AudioSource::get_clip()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_tCC3C35F579203CE2601243585AB3D6953C3BA051 * AudioSource_get_clip_m773ECEF5566EA64C74E316D7EF1A63AA01604643 (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * __this, const RuntimeMethod* method)
 {
@@ -2761,16 +2725,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Pause_m279B116A62699983F6B53
 	_il2cpp_icall_func = (AudioSource_Pause_m279B116A62699983F6B5347FD4770358D7794F3C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::Pause()");
 	_il2cpp_icall_func(__this);
 }
-// System.Boolean UnityEngine.AudioSource::get_isPlaying()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioSource_get_isPlaying_m5112A878573652681F40C82F0D8103C999978F3C (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * __this, const RuntimeMethod* method)
-{
-	typedef bool (*AudioSource_get_isPlaying_m5112A878573652681F40C82F0D8103C999978F3C_ftn) (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C *);
-	static AudioSource_get_isPlaying_m5112A878573652681F40C82F0D8103C999978F3C_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (AudioSource_get_isPlaying_m5112A878573652681F40C82F0D8103C999978F3C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::get_isPlaying()");
-	bool retVal = _il2cpp_icall_func(__this);
-	return retVal;
-}
 // System.Void UnityEngine.AudioSource::set_playOnAwake(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_playOnAwake_m5E4C76260D66898EEFEB20E4F42B6249AACB4128 (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * __this, bool ___value0, const RuntimeMethod* method)
 {
@@ -2778,15 +2732,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_playOnAwake_m5E4C76260D6
 	static AudioSource_set_playOnAwake_m5E4C76260D66898EEFEB20E4F42B6249AACB4128_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (AudioSource_set_playOnAwake_m5E4C76260D66898EEFEB20E4F42B6249AACB4128_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_playOnAwake(System.Boolean)");
-	_il2cpp_icall_func(__this, ___value0);
-}
-// System.Void UnityEngine.AudioSource::set_spatialBlend(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_spatialBlend_mC144B8230F08743505D4B0A92C1B9F809BC6D9C5 (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C * __this, float ___value0, const RuntimeMethod* method)
-{
-	typedef void (*AudioSource_set_spatialBlend_mC144B8230F08743505D4B0A92C1B9F809BC6D9C5_ftn) (AudioSource_t5196F862B4E60F404613361C90D87FBDD041E93C *, float);
-	static AudioSource_set_spatialBlend_mC144B8230F08743505D4B0A92C1B9F809BC6D9C5_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (AudioSource_set_spatialBlend_mC144B8230F08743505D4B0A92C1B9F809BC6D9C5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::set_spatialBlend(System.Single)");
 	_il2cpp_icall_func(__this, ___value0);
 }
 #ifdef __clang__
@@ -3510,95 +3455,6 @@ IL_0022:
 	{
 		return;
 	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void UnityEngine.MovieTexture::Play()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieTexture_Play_mDE93E9D7A0A10EF50F55C5BDB01C3F6ABDCB4BF9 (MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982 * __this, const RuntimeMethod* method)
-{
-	{
-		MovieTexture_INTERNAL_CALL_Play_mA6F9F078055FE9F114BC2CFF29E2E727206471DC(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.MovieTexture::INTERNAL_CALL_Play(UnityEngine.MovieTexture)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieTexture_INTERNAL_CALL_Play_mA6F9F078055FE9F114BC2CFF29E2E727206471DC (MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982 * ___self0, const RuntimeMethod* method)
-{
-	typedef void (*MovieTexture_INTERNAL_CALL_Play_mA6F9F078055FE9F114BC2CFF29E2E727206471DC_ftn) (MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982 *);
-	static MovieTexture_INTERNAL_CALL_Play_mA6F9F078055FE9F114BC2CFF29E2E727206471DC_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (MovieTexture_INTERNAL_CALL_Play_mA6F9F078055FE9F114BC2CFF29E2E727206471DC_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.MovieTexture::INTERNAL_CALL_Play(UnityEngine.MovieTexture)");
-	_il2cpp_icall_func(___self0);
-}
-// System.Void UnityEngine.MovieTexture::Stop()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieTexture_Stop_m4D63DA5DE029A65D538D8AC45422FFD40F4FE869 (MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982 * __this, const RuntimeMethod* method)
-{
-	{
-		MovieTexture_INTERNAL_CALL_Stop_m30BB6436DCCD96F6B836A114A2A29E4749EBB854(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.MovieTexture::INTERNAL_CALL_Stop(UnityEngine.MovieTexture)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieTexture_INTERNAL_CALL_Stop_m30BB6436DCCD96F6B836A114A2A29E4749EBB854 (MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982 * ___self0, const RuntimeMethod* method)
-{
-	typedef void (*MovieTexture_INTERNAL_CALL_Stop_m30BB6436DCCD96F6B836A114A2A29E4749EBB854_ftn) (MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982 *);
-	static MovieTexture_INTERNAL_CALL_Stop_m30BB6436DCCD96F6B836A114A2A29E4749EBB854_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (MovieTexture_INTERNAL_CALL_Stop_m30BB6436DCCD96F6B836A114A2A29E4749EBB854_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.MovieTexture::INTERNAL_CALL_Stop(UnityEngine.MovieTexture)");
-	_il2cpp_icall_func(___self0);
-}
-// System.Void UnityEngine.MovieTexture::Pause()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieTexture_Pause_m355DA7D1D09C761DD91FEE875A0A38760E089140 (MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982 * __this, const RuntimeMethod* method)
-{
-	{
-		MovieTexture_INTERNAL_CALL_Pause_mD3C62DE4C40447C5E2F56DF3683914AA2A7AB2FA(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.MovieTexture::INTERNAL_CALL_Pause(UnityEngine.MovieTexture)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MovieTexture_INTERNAL_CALL_Pause_mD3C62DE4C40447C5E2F56DF3683914AA2A7AB2FA (MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982 * ___self0, const RuntimeMethod* method)
-{
-	typedef void (*MovieTexture_INTERNAL_CALL_Pause_mD3C62DE4C40447C5E2F56DF3683914AA2A7AB2FA_ftn) (MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982 *);
-	static MovieTexture_INTERNAL_CALL_Pause_mD3C62DE4C40447C5E2F56DF3683914AA2A7AB2FA_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (MovieTexture_INTERNAL_CALL_Pause_mD3C62DE4C40447C5E2F56DF3683914AA2A7AB2FA_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.MovieTexture::INTERNAL_CALL_Pause(UnityEngine.MovieTexture)");
-	_il2cpp_icall_func(___self0);
-}
-// UnityEngine.AudioClip UnityEngine.MovieTexture::get_audioClip()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_tCC3C35F579203CE2601243585AB3D6953C3BA051 * MovieTexture_get_audioClip_m7CABCC06ED003E585BE30DCDAA09F42F05F7FB95 (MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982 * __this, const RuntimeMethod* method)
-{
-	typedef AudioClip_tCC3C35F579203CE2601243585AB3D6953C3BA051 * (*MovieTexture_get_audioClip_m7CABCC06ED003E585BE30DCDAA09F42F05F7FB95_ftn) (MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982 *);
-	static MovieTexture_get_audioClip_m7CABCC06ED003E585BE30DCDAA09F42F05F7FB95_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (MovieTexture_get_audioClip_m7CABCC06ED003E585BE30DCDAA09F42F05F7FB95_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.MovieTexture::get_audioClip()");
-	AudioClip_tCC3C35F579203CE2601243585AB3D6953C3BA051 * retVal = _il2cpp_icall_func(__this);
-	return retVal;
-}
-// System.Boolean UnityEngine.MovieTexture::get_isPlaying()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MovieTexture_get_isPlaying_mC0857407CD23D418FF90017CCB09202A5AFF5E82 (MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982 * __this, const RuntimeMethod* method)
-{
-	typedef bool (*MovieTexture_get_isPlaying_mC0857407CD23D418FF90017CCB09202A5AFF5E82_ftn) (MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982 *);
-	static MovieTexture_get_isPlaying_mC0857407CD23D418FF90017CCB09202A5AFF5E82_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (MovieTexture_get_isPlaying_mC0857407CD23D418FF90017CCB09202A5AFF5E82_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.MovieTexture::get_isPlaying()");
-	bool retVal = _il2cpp_icall_func(__this);
-	return retVal;
-}
-// System.Boolean UnityEngine.MovieTexture::get_isReadyToPlay()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MovieTexture_get_isReadyToPlay_m0C96D883019BC573B22237AC2D722AF84524EBAD (MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982 * __this, const RuntimeMethod* method)
-{
-	typedef bool (*MovieTexture_get_isReadyToPlay_m0C96D883019BC573B22237AC2D722AF84524EBAD_ftn) (MovieTexture_t976C236EEAB86AD4DDE3D8B1AC2D7B4463E5D982 *);
-	static MovieTexture_get_isReadyToPlay_m0C96D883019BC573B22237AC2D722AF84524EBAD_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (MovieTexture_get_isReadyToPlay_m0C96D883019BC573B22237AC2D722AF84524EBAD_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.MovieTexture::get_isReadyToPlay()");
-	bool retVal = _il2cpp_icall_func(__this);
-	return retVal;
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

@@ -21444,7 +21444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m507C9149FF7F83AAC72
 // System.Void System.Collections.Generic.List`1<System.Object>::Add(!0)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_Add_m6930161974C7504C80F52EC379EF012387D43138_gshared (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, RuntimeObject * p0, const RuntimeMethod* method);
 // !!0 System.Linq.Enumerable::Last<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Enumerable_Last_TisRuntimeObject_m58EABF611EFF71AA84487083A4BDD34C72FE92D4_gshared (RuntimeObject* p0, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Enumerable_Last_TisRuntimeObject_mCB01F433E7E61CA4DB359816A8EE70333DF7FFB2_gshared (RuntimeObject* p0, const RuntimeMethod* method);
 // System.Void System.Predicate`1<System.Object>::.ctor(System.Object,System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Predicate_1__ctor_mBC07C59B061E1B719FFE2B6E5541E9011D906C3C_gshared (Predicate_1_t4AA10EFD4C5497CA1CD0FE35A6AF5990FF5D0979 * __this, RuntimeObject * p0, intptr_t p1, const RuntimeMethod* method);
 // System.Int32 System.Collections.Generic.List`1<System.Object>::FindIndex(System.Predicate`1<!0>)
@@ -21817,7 +21817,7 @@ inline void List_1_Add_mE3D4CB59FE517BF83157088636C9DE7D5D3ED13D (List_1_tF4974B
 // !!0 System.Linq.Enumerable::Last<TMPro.KerningPair>(System.Collections.Generic.IEnumerable`1<!!0>)
 inline KerningPair_t4FCF2540D9DBE27046ED4A8643B7AA644ED0DAAD * Enumerable_Last_TisKerningPair_t4FCF2540D9DBE27046ED4A8643B7AA644ED0DAAD_m26ECE7F46C53BE2C4DA789ADF16135FB021E02C0 (RuntimeObject* p0, const RuntimeMethod* method)
 {
-	return ((  KerningPair_t4FCF2540D9DBE27046ED4A8643B7AA644ED0DAAD * (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_Last_TisRuntimeObject_m58EABF611EFF71AA84487083A4BDD34C72FE92D4_gshared)(p0, method);
+	return ((  KerningPair_t4FCF2540D9DBE27046ED4A8643B7AA644ED0DAAD * (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_Last_TisRuntimeObject_mCB01F433E7E61CA4DB359816A8EE70333DF7FFB2_gshared)(p0, method);
 }
 // System.UInt32 TMPro.KerningPair::get_firstGlyph()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t KerningPair_get_firstGlyph_mBAAEC0435760967479A815532FCB235C58217F4B (KerningPair_t4FCF2540D9DBE27046ED4A8643B7AA644ED0DAAD * __this, const RuntimeMethod* method);

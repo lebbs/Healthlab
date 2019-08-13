@@ -2818,7 +2818,7 @@ CATCH_0148:
 			String_t* L_40 = VirtFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Exception::get_Message() */, L_39);
 			Exception_t * L_41 = V_5;
 			NullCheck(L_41);
-			String_t* L_42 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Exception::get_StackTrace() */, L_41);
+			String_t* L_42 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Exception::get_StackTrace() */, L_41);
 			String_t* L_43 = String_Concat_mF4626905368D6558695A823466A1AF65EADB9923(L_40, _stringLiteralADC83B19E793491B1C6EA0FD8B46CD9F32E592FC, L_42, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var);
 			Debug_LogError_m3BCF9B78263152261565DCA9DB7D55F0C391ED29(L_43, /*hidden argument*/NULL);
@@ -3359,7 +3359,7 @@ CATCH_00be:
 			String_t* L_27 = VirtFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Exception::get_Message() */, L_26);
 			Exception_t * L_28 = V_5;
 			NullCheck(L_28);
-			String_t* L_29 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Exception::get_StackTrace() */, L_28);
+			String_t* L_29 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Exception::get_StackTrace() */, L_28);
 			String_t* L_30 = String_Concat_mF4626905368D6558695A823466A1AF65EADB9923(L_27, _stringLiteralADC83B19E793491B1C6EA0FD8B46CD9F32E592FC, L_29, /*hidden argument*/NULL);
 			IL2CPP_RUNTIME_CLASS_INIT(Debug_t7B5FCB117E2FD63B6838BC52821B252E2BFB61C4_il2cpp_TypeInfo_var);
 			Debug_LogError_m3BCF9B78263152261565DCA9DB7D55F0C391ED29(L_30, /*hidden argument*/NULL);

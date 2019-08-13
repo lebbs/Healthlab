@@ -4290,7 +4290,7 @@ IL_0250:
 		NullCheck(L_92);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_93 = ASN1_get_Value_m9BD6239E12A6148AF9507C2F58058C6B8147A079(L_92, /*hidden argument*/NULL);
 		NullCheck(L_91);
-		String_t* L_94 = VirtFuncInvoker1< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* >::Invoke(43 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_91, L_93);
+		String_t* L_94 = VirtFuncInvoker1< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* >::Invoke(42 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_91, L_93);
 		V_4 = L_94;
 		goto IL_0280;
 	}
@@ -4302,7 +4302,7 @@ IL_026e:
 		NullCheck(L_96);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_97 = ASN1_get_Value_m9BD6239E12A6148AF9507C2F58058C6B8147A079(L_96, /*hidden argument*/NULL);
 		NullCheck(L_95);
-		String_t* L_98 = VirtFuncInvoker1< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* >::Invoke(43 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_95, L_97);
+		String_t* L_98 = VirtFuncInvoker1< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* >::Invoke(42 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_95, L_97);
 		V_4 = L_98;
 	}
 
@@ -5644,7 +5644,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A22
 		Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4 * L_0 = Encoding_get_ASCII_m9B673AE3152AB04D07CADE6E5E142C785B5BC94E(/*hidden argument*/NULL);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_1 = ___data1;
 		NullCheck(L_0);
-		String_t* L_2 = VirtFuncInvoker1< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* >::Invoke(43 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_0, L_1);
+		String_t* L_2 = VirtFuncInvoker1< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* >::Invoke(42 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_0, L_1);
 		String_t* L_3 = ___type0;
 		String_t* L_4 = String_Format_m0ACDD8B34764E4040AED0B3EEB753567E4576BFA(_stringLiteralCDA87E8FAD2300F90D5D664EDD42E9364EDDB3D1, L_3, /*hidden argument*/NULL);
 		V_0 = L_4;

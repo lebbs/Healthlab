@@ -76,11 +76,12 @@
 	</assembly>
 	<assembly fullname="GitHub.Unity.45">
 		<type fullname="GitHub.Unity.ApplicationCache" preserve="nothing"/>
+		<type fullname="GitHub.Unity.BranchesCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.EnvironmentCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.GitAheadBehindCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.GitLocksCache" preserve="nothing"/>
+		<type fullname="GitHub.Unity.GitLogCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.GitStatusCache" preserve="nothing"/>
-		<type fullname="GitHub.Unity.GitUserCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.RepositoryInfoCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.Window" preserve="nothing"/>
 	</assembly>
@@ -149,6 +150,7 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessSystemProfile" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.BezierDataProvider" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.BezierInertia" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.Facades.ServiceFacade" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.HoverLight" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.MixedRealityLineRenderer" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.ParabolaPhysicalLineDataProvider" preserve="nothing"/>
@@ -168,8 +170,10 @@
 	<assembly fullname="UnityEditor.Graphs">
 		<type fullname="UnityEditor.Graphs.AnimationBlendTree.Graph" preserve="nothing"/>
 		<type fullname="UnityEditor.Graphs.AnimationBlendTree.GraphGUI" preserve="nothing"/>
+		<type fullname="UnityEditor.Graphs.AnimationStateMachine.AnyStateNode" preserve="nothing"/>
 		<type fullname="UnityEditor.Graphs.AnimationStateMachine.Graph" preserve="nothing"/>
 		<type fullname="UnityEditor.Graphs.AnimationStateMachine.GraphGUI" preserve="nothing"/>
+		<type fullname="UnityEditor.Graphs.AnimationStateMachine.StateNode" preserve="nothing"/>
 		<type fullname="UnityEditor.Graphs.AnimatorControllerTool" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEditor.TestRunner">

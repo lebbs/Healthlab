@@ -15396,7 +15396,7 @@ IL_000e:
 		NullCheck(L_3);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_4 = ASN1_get_Value_m9BD6239E12A6148AF9507C2F58058C6B8147A079(L_3, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		String_t* L_5 = VirtFuncInvoker1< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* >::Invoke(43 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_2, L_4);
+		String_t* L_5 = VirtFuncInvoker1< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* >::Invoke(42 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_2, L_4);
 		V_0 = L_5;
 		V_1 = (String_t*)NULL;
 		String_t* L_6 = V_0;
@@ -24075,7 +24075,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Type1Message_Decode_mBDBDE9E060DFA07CC9A
 		int32_t L_9 = V_1;
 		int32_t L_10 = V_0;
 		NullCheck(L_7);
-		String_t* L_11 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(44 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_7, L_8, L_9, L_10);
+		String_t* L_11 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(43 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_7, L_8, L_9, L_10);
 		__this->set__domain_4(L_11);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_12 = ___message0;
 		uint16_t L_13 = BitConverterLE_ToUInt16_mFC8811706681807666F91EE89A28ADF75DF6EFCC(L_12, ((int32_t)24), /*hidden argument*/NULL);
@@ -24084,7 +24084,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Type1Message_Decode_mBDBDE9E060DFA07CC9A
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_15 = ___message0;
 		int32_t L_16 = V_2;
 		NullCheck(L_14);
-		String_t* L_17 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(44 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_14, L_15, ((int32_t)32), L_16);
+		String_t* L_17 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(43 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_14, L_15, ((int32_t)32), L_16);
 		__this->set__host_3(L_17);
 		return;
 	}
@@ -24396,7 +24396,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Type2Message_Decode_m480774BBEA24F18E5C8
 		uint16_t L_13 = V_1;
 		uint16_t L_14 = V_0;
 		NullCheck(L_11);
-		String_t* L_15 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(44 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_11, L_12, L_13, L_14);
+		String_t* L_15 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(43 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_11, L_12, L_13, L_14);
 		__this->set__targetName_4(L_15);
 		goto IL_006d;
 	}
@@ -24408,7 +24408,7 @@ IL_005a:
 		uint16_t L_18 = V_1;
 		uint16_t L_19 = V_0;
 		NullCheck(L_16);
-		String_t* L_20 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(44 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_16, L_17, L_18, L_19);
+		String_t* L_20 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(43 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_16, L_17, L_18, L_19);
 		__this->set__targetName_4(L_20);
 	}
 
@@ -24859,7 +24859,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Type3Message_DecodeString_mCB1797B1
 		int32_t L_3 = ___offset1;
 		int32_t L_4 = ___len2;
 		NullCheck(L_1);
-		String_t* L_5 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(44 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_1, L_2, L_3, L_4);
+		String_t* L_5 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(43 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_1, L_2, L_3, L_4);
 		return L_5;
 	}
 
@@ -24870,7 +24870,7 @@ IL_0018:
 		int32_t L_8 = ___offset1;
 		int32_t L_9 = ___len2;
 		NullCheck(L_6);
-		String_t* L_10 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(44 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_6, L_7, L_8, L_9);
+		String_t* L_10 = VirtFuncInvoker3< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*, int32_t, int32_t >::Invoke(43 /* System.String System.Text.Encoding::GetString(System.Byte[],System.Int32,System.Int32) */, L_6, L_7, L_8, L_9);
 		return L_10;
 	}
 }
@@ -30195,7 +30195,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * PKCS12_Clone_mCFFD83941C1E56B
 		Encoding_t7837A3C0F55EAE0E3959A53C6D6E88B113ED78A4 * L_2 = Encoding_get_BigEndianUnicode_m6CC17642A36943FE038F54729446D7E30D582BDD(/*hidden argument*/NULL);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_3 = __this->get__password_0();
 		NullCheck(L_2);
-		String_t* L_4 = VirtFuncInvoker1< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* >::Invoke(43 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_2, L_3);
+		String_t* L_4 = VirtFuncInvoker1< String_t*, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* >::Invoke(42 /* System.String System.Text.Encoding::GetString(System.Byte[]) */, L_2, L_3);
 		PKCS12_t98C7F0D647A3E34B93987FC7923DAA27A1AF576C * L_5 = (PKCS12_t98C7F0D647A3E34B93987FC7923DAA27A1AF576C *)il2cpp_codegen_object_new(PKCS12_t98C7F0D647A3E34B93987FC7923DAA27A1AF576C_il2cpp_TypeInfo_var);
 		PKCS12__ctor_m35A8D4C261B2A0B4B7BC677160AB1DF90B04B229(L_5, L_1, L_4, /*hidden argument*/NULL);
 		V_0 = L_5;
