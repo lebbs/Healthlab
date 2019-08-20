@@ -23,7 +23,7 @@ public class loadTxt : MonoBehaviour
     //    Read("Assets/test.txt");
     //    gameObject.GetComponent<Text>().text = text;
     //}
-    private int urlIndex = 0;
+    private int urlIndex;
     private string textFromWWW;
     public string[] url;
    

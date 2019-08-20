@@ -85,6 +85,11 @@
 		<type fullname="GitHub.Unity.RepositoryInfoCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.Window" preserve="nothing"/>
 	</assembly>
+	<assembly fullname="Microsoft.MixedReality.Toolkit.Core.Inspectors">
+		<type fullname="Microsoft.MixedReality.Toolkit.Diagnostics.Editor.MixedRealityDiagnosticsSystemProfileInspector" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Editor.MixedRealityCameraProfileInspector" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Editor.MixedRealityToolkitConfigurationProfileInspector" preserve="nothing"/>
+	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit.SDK">
 		<type fullname="Microsoft.MixedReality.Toolkit.Examples.Demos.PhysicalPressEventRouter" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.AnimatedCursor" preserve="nothing"/>
