@@ -66,6 +66,7 @@
 		<type fullname="Lerp" preserve="nothing"/>
 		<type fullname="Microsoft.Azure.SpatialAnchors.Unity.Samples.AzureSpatialAnchorsDemoConfiguration" preserve="nothing"/>
 		<type fullname="ObjectLoaderTesti" preserve="nothing"/>
+		<type fullname="StartingPosition" preserve="nothing"/>
 		<type fullname="Track" preserve="nothing"/>
 		<type fullname="VideoClips" preserve="nothing"/>
 		<type fullname="VideoLoaderUrl" preserve="nothing"/>
@@ -76,19 +77,27 @@
 	</assembly>
 	<assembly fullname="GitHub.Unity.45">
 		<type fullname="GitHub.Unity.ApplicationCache" preserve="nothing"/>
-		<type fullname="GitHub.Unity.BranchesCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.EnvironmentCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.GitAheadBehindCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.GitLocksCache" preserve="nothing"/>
-		<type fullname="GitHub.Unity.GitLogCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.GitStatusCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.RepositoryInfoCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.Window" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit.Core.Inspectors">
+		<type fullname="Microsoft.MixedReality.Toolkit.Boundary.Editor.MixedRealityBoundaryVisualizationProfileInspector" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Diagnostics.Editor.MixedRealityDiagnosticsSystemProfileInspector" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Editor.MixedRealityCameraProfileInspector" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Editor.MixedRealityRegisteredServiceProviderProfileInspector" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Editor.MixedRealityToolkitConfigurationProfileInspector" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityControllerMappingProfileInspector" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityControllerVisualizationProfileInspector" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityInputActionRulesInspector" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityInputActionsProfileInspector" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityInputSystemProfileInspector" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityPointerProfileInspector" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Inspectors.MixedRealityHandTrackingProfileInspector" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.SpatialAwareness.Editor.MixedRealitySpatialAwarenessSystemProfileInspector" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit.SDK">
 		<type fullname="Microsoft.MixedReality.Toolkit.Examples.Demos.PhysicalPressEventRouter" preserve="nothing"/>
@@ -193,7 +202,6 @@
 		<type fullname="UnityEngine.UI.Text" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Vuforia.UnityExtensions">
-		<type fullname="DefaultInitializationErrorHandlerPlaceHolder" preserve="nothing"/>
 		<type fullname="Vuforia.ImageTargetBehaviour" preserve="nothing"/>
 		<type fullname="Vuforia.ObjectTargetBehaviour" preserve="nothing"/>
 		<type fullname="Vuforia.TurnOffBehaviour" preserve="nothing"/>

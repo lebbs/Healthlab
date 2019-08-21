@@ -9,6 +9,8 @@ TagManager:
   - "yl\xF6s"
   - alas
   - Content
+  - MRTK
+  - PlaySpace
   layers:
   - Default
   - TransparentFX
