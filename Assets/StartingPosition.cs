@@ -8,7 +8,7 @@ public class StartingPosition : MonoBehaviour
     Vector3 startPos;
     Vector3 startScale;
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         startPos = this.transform.position;
         startRotation = this.transform.rotation;
@@ -18,6 +18,7 @@ public class StartingPosition : MonoBehaviour
 
 
     }
+
 
     public void StarPosition()
     {

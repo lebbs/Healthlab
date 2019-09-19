@@ -84,21 +84,6 @@
 		<type fullname="GitHub.Unity.RepositoryInfoCache" preserve="nothing"/>
 		<type fullname="GitHub.Unity.Window" preserve="nothing"/>
 	</assembly>
-	<assembly fullname="Microsoft.MixedReality.Toolkit.Core.Inspectors">
-		<type fullname="Microsoft.MixedReality.Toolkit.Boundary.Editor.MixedRealityBoundaryVisualizationProfileInspector" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.Diagnostics.Editor.MixedRealityDiagnosticsSystemProfileInspector" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.Editor.MixedRealityCameraProfileInspector" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.Editor.MixedRealityRegisteredServiceProviderProfileInspector" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.Editor.MixedRealityToolkitConfigurationProfileInspector" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityControllerMappingProfileInspector" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityControllerVisualizationProfileInspector" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityInputActionRulesInspector" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityInputActionsProfileInspector" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityInputSystemProfileInspector" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.Input.Editor.MixedRealityPointerProfileInspector" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.Inspectors.MixedRealityHandTrackingProfileInspector" preserve="nothing"/>
-		<type fullname="Microsoft.MixedReality.Toolkit.SpatialAwareness.Editor.MixedRealitySpatialAwarenessSystemProfileInspector" preserve="nothing"/>
-	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit.SDK">
 		<type fullname="Microsoft.MixedReality.Toolkit.Examples.Demos.PhysicalPressEventRouter" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Input.AnimatedCursor" preserve="nothing"/>
@@ -189,9 +174,6 @@
 		<type fullname="UnityEditor.Graphs.AnimationStateMachine.GraphGUI" preserve="nothing"/>
 		<type fullname="UnityEditor.Graphs.AnimationStateMachine.StateNode" preserve="nothing"/>
 		<type fullname="UnityEditor.Graphs.AnimatorControllerTool" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="UnityEditor.TestRunner">
-		<type fullname="UnityEditor.TestTools.TestRunner.TestListCacheData" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
